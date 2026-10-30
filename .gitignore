@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+.env*
+*.log
+exports/
+private-data/
+
+# Private hosting metadata and generated bundles
+.openai/
+dist/source.zip
