@@ -1,3 +1,25 @@
+# Recruiting Operations Health Check — consultant portfolio demo
+
+**Built by John Hazelton.** Independent portfolio demonstration using synthetic data. Not affiliated with or endorsed by Ashby.
+
+Tagline: **From recruiting data to better operational decisions.**
+
+## Run and verify
+
+No installation or paid API required. Run `python3 -m http.server 8080 --directory dist`, then open `http://localhost:8080`. Run automated tests with `node --test tests/*.test.cjs` (Node 20+). For GitHub Pages, publish the `dist/` directory.
+
+## Consulting experience
+
+The original CSV diagnostics and repair queue remain in place. The consultant workspace adds four-category scoring, evidence-linked observations and explicitly unverified root-cause hypotheses, recommended owners and success metrics, an editable session-only 30-day plan, and a print/PDF-friendly report. The repair queue export includes suggested owners and derives from current findings.
+
+**Scoring methodology:** Each category starts at 100. For its findings, subtract `100 × sum(severity weights) / (3 × application count)`, with High=3, Medium=2, Low=1; floor at zero. Overall is the rounded arithmetic mean of the four categories. This is an illustrative issue-density index, **not** a validated industry health benchmark. Counts are findings, not necessarily unique people. Score coverage must always be read alongside unavailable checks.
+
+**Evidence limitations:** The existing 37-row fictional application CSV supports stale stages, disposition gaps, potential duplicate applications, incomplete core fields, date anomalies, status/interview conflicts and application-level inactivity for open roles. Additional source-completeness and interview-feedback checks run only if the upload contains columns named `Candidate source` or `Source`, and both `Interview completed at` and `Feedback submitted at`, respectively. Stage-configuration consistency and actual requisition time-to-fill are **not measured** without job-stage configuration and requisition open/close histories. Do not interpret unavailable checks as passing. No real Ashby integration, authentication or backend is included.
+
+**Security:** Local browser CSV parsing, no candidate scoring, no ATS writes, no analytics or paid APIs. CSV exports neutralise spreadsheet formula injection. Use synthetic data for public demonstrations; real recruiting exports require appropriate access controls and retention policies.
+
+---
+
 # Ashby Health Check
 
 An independent, local-first recruiting operations MVP by Holistic Recruiter Club. Inspired by Mistral’s Recruiting Operations Manager brief; not affiliated with Mistral AI or Ashby. Cream, orange and pixel landscape styling references Mistral’s visual language without using its logo.
