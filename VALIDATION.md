@@ -34,3 +34,10 @@
 - Browser preview confirmed Engineering (11-day completed technical-stage median, n=22), Commercial (4-day median, n=19), the teaching response, and propagation of edited objectives and filters into the report. Browser metrics download completed; a subsequent multi-download QA sequence timed out. Guide/report generation and download handlers passed automated integration checks; the browser PDF save dialogue was not exercised.
 - Consent-only case analytics accepts allowlisted section/action events and rejects declined-consent payloads. A case-funnel / case-export-metrics event was read back in Supabase and marked test-only. No filter values, scope text, candidate data or IP fields are included.
 - The existing 9-check audit and pseudonymous import safeguards continue to pass their regression checks. No genuine Ashby configuration or real customer outcomes are claimed.
+
+## Multi-page presentation update — 5 November 2026
+
+- Split the portfolio into Home, Customer case, My approach and Explore the tool. The case retains its five guided steps; the audit remains optional and separate.
+- Replaced visitor-facing median/sample notation with typical time and completed-record language. Calculation method remains available in a collapsed explanation; the underlying median and denominators are unchanged.
+- Consent-only analytics now keeps a random session ID across pages in the same browser tab so a consented journey can be followed. The privacy notice reflects tab-session storage. No filter values, report text or imported records are collected.
+- All 34 automated tests pass. Browser preview verified navigation, Engineering case figures, customer report rendering and the 240-application audit demo. PDF saving and the guide/report browser download dialogues were not exercised in this update.

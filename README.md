@@ -1,6 +1,10 @@
+## Portfolio walkthrough
+
+The public site now has four focused pages: an introduction, a guided fictional customer case, a platform-agnostic consulting approach, and an optional data health tool. A hiring manager can follow the short case before inspecting the underlying audit. The stage calculations remain rigorous, while the visitor interface describes typical time and the number of completed records in plain language. Technical details are available on request in the underlying data and documentation.
+
 ## V2: the customer conversation
 
-A five-step fictional consulting case now leads the experience: discovery, funnel investigation, teaching, scoped engagement/CSM handover, and a customer report. It supplements the existing CSV audit.
+A five-step fictional consulting case leads the walkthrough: discovery, funnel investigation, teaching, scoped engagement/CSM handover, and a customer report. It supplements the existing CSV audit on a separate page.
 
 - Reuses the existing 240 synthetic Application IDs and adds 720 explicitly fictional stage-history events. Rebuild with `python3 scripts/build-case.py`; history is bundled as JSON and a downloadable CSV, separately from the Supabase snapshot.
 - Filters by team, role, entry cohort and stage. Completed-stage medians, active waiting ages, resolved-exit progression and excluded records use explicit denominators. No candidate scoring, time-to-fill or Quality of Hire claims.

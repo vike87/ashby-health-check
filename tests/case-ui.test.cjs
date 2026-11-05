@@ -20,6 +20,6 @@ test('invalid thresholds and dates disable stale exports, then recover',async()=
 test('case steps, keyboard navigation, learning feedback, print and downloads work',async()=>{
  const a=await setup();a.go[0].onclick();assert.equal(a.el('case-investigate-panel').hidden,false);assert.equal(a.el('case-discover-panel').hidden,true);a.tabs[1].onkeydown({key:'ArrowRight',preventDefault(){}});assert.equal(a.el('case-teach-panel').hidden,false);
  a.el('case-check-answer').onclick();assert.match(a.el('case-quiz-feedback').textContent,/Choose a response/);
- a.el('case-metrics').onclick();assert.match(await a.blobs[0].text(),/Median completed days/);a.el('case-guide').onclick();assert.match(await a.blobs[1].text(),/missing dates into zero/);
+ a.el('case-metrics').onclick();assert.match(await a.blobs[0].text(),/Typical completed days/);a.el('case-guide').onclick();assert.match(await a.blobs[1].text(),/missing dates into zero/);
  a.tabs[4].onclick();a.el('case-print').onclick();assert.equal(a.printed(),1);assert.equal(a.classes.size,0);
 });
