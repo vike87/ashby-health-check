@@ -15,8 +15,8 @@ create table public.usage_events (
  session_id uuid not null,
  event_id uuid not null unique,
  event_type text not null check (event_type in ('view','engagement','action')),
- view_name text not null check (view_name in ('home','repair-queue','checks','ai-brief','overview','diagnosis','roadmap','report')),
- action_name text check (action_name is null or action_name in ('load-demo','upload-csv','run-audit','export-queue','download-brief','copy-brief','print-report','clear-data','template-download')),
+ view_name text not null check (view_name in ('home','repair-queue','checks','ai-brief','overview','diagnosis','roadmap','report','case-discovery','case-funnel','case-teaching','case-scope','case-report')),
+ action_name text check (action_name is null or action_name in ('load-demo','upload-csv','run-audit','export-queue','download-brief','copy-brief','print-report','clear-data','template-download','case-export-metrics','case-export-guide','case-export-report','case-print-report','case-quiz','case-filter')),
  active_seconds integer not null default 0 check (active_seconds between 0 and 30),
  consent_version text not null check (consent_version in ('2026-11-v1','2026-11-v2')),
  is_test boolean not null default false

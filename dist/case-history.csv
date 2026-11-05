@@ -1,0 +1,721 @@
+applicationId,roleId,role,team,cohort,stage,entered,exited,outcome
+app-001,job-01,Research Engineer,Engineering,September,Application review,,2026-09-02,withdrawn
+app-002,job-02,Enterprise Account Executive,Commercial,September,Application review,2026-09-02,2026-09-04,progressed
+app-002,job-02,Enterprise Account Executive,Commercial,September,Recruiter screen,2026-09-04,2026-09-07,progressed
+app-002,job-02,Enterprise Account Executive,Commercial,September,Hiring manager interview,2026-09-07,2026-09-11,rejected
+app-003,job-03,Developer Relations,Corporate,September,Application review,2026-09-03,2026-09-06,progressed
+app-003,job-03,Developer Relations,Corporate,September,Recruiter screen,2026-09-06,2026-09-10,progressed
+app-003,job-03,Developer Relations,Corporate,September,Hiring manager interview,2026-09-10,2026-09-11,progressed
+app-003,job-03,Developer Relations,Corporate,September,Technical / functional interview,2026-09-11,2026-09-16,progressed
+app-003,job-03,Developer Relations,Corporate,September,Offer,2026-09-16,2026-09-19,rejected
+app-004,job-04,People Operations,Corporate,September,Application review,2026-09-01,2026-09-05,progressed
+app-004,job-04,People Operations,Corporate,September,Recruiter screen,2026-09-05,2026-09-06,rejected
+app-005,job-01,Research Engineer,Engineering,September,Application review,2026-09-02,2026-09-03,progressed
+app-005,job-01,Research Engineer,Engineering,September,Recruiter screen,2026-09-03,2026-09-05,progressed
+app-005,job-01,Research Engineer,Engineering,September,Hiring manager interview,2026-09-05,2026-09-08,progressed
+app-005,job-01,Research Engineer,Engineering,September,Technical / functional interview,2026-09-08,2026-09-20,rejected
+app-006,job-02,Enterprise Account Executive,Commercial,September,Application review,2026-09-03,2026-09-05,rejected
+app-007,job-03,Developer Relations,Corporate,September,Application review,2026-09-01,2026-09-04,progressed
+app-007,job-03,Developer Relations,Corporate,September,Recruiter screen,,2026-09-08,progressed
+app-007,job-03,Developer Relations,Corporate,September,Hiring manager interview,2026-09-08,2026-09-09,rejected
+app-008,job-04,People Operations,Corporate,September,Application review,2026-09-02,2026-09-06,progressed
+app-008,job-04,People Operations,Corporate,September,Recruiter screen,2026-09-06,2026-09-07,progressed
+app-008,job-04,People Operations,Corporate,September,Hiring manager interview,2026-09-07,2026-09-09,progressed
+app-008,job-04,People Operations,Corporate,September,Technical / functional interview,2026-09-09,2026-09-15,progressed
+app-008,job-04,People Operations,Corporate,September,Offer,2026-09-15,2026-09-19,withdrawn
+app-009,job-01,Research Engineer,Engineering,September,Application review,2026-09-03,2026-09-04,progressed
+app-009,job-01,Research Engineer,Engineering,September,Recruiter screen,2026-09-04,2026-09-06,rejected
+app-010,job-02,Enterprise Account Executive,Commercial,September,Application review,2026-09-01,2026-09-03,progressed
+app-010,job-02,Enterprise Account Executive,Commercial,September,Recruiter screen,2026-09-03,2026-09-06,progressed
+app-010,job-02,Enterprise Account Executive,Commercial,September,Hiring manager interview,2026-09-06,2026-09-10,progressed
+app-010,job-02,Enterprise Account Executive,Commercial,September,Technical / functional interview,2026-09-10,2026-09-14,rejected
+app-011,job-03,Developer Relations,Corporate,September,Application review,2026-09-02,2026-09-05,rejected
+app-012,job-04,People Operations,Corporate,September,Application review,2026-09-03,2026-09-07,progressed
+app-012,job-04,People Operations,Corporate,September,Recruiter screen,2026-09-07,2026-09-08,progressed
+app-012,job-04,People Operations,Corporate,September,Hiring manager interview,2026-09-08,2026-09-10,rejected
+app-013,job-01,Research Engineer,Engineering,September,Application review,2026-09-01,2026-09-02,progressed
+app-013,job-01,Research Engineer,Engineering,September,Recruiter screen,2026-09-02,2026-09-04,progressed
+app-013,job-01,Research Engineer,Engineering,September,Hiring manager interview,,2026-09-07,progressed
+app-013,job-01,Research Engineer,Engineering,September,Technical / functional interview,2026-09-07,2026-09-17,progressed
+app-013,job-01,Research Engineer,Engineering,September,Offer,2026-09-17,2026-09-18,hired
+app-014,job-02,Enterprise Account Executive,Commercial,September,Application review,2026-09-02,2026-09-04,progressed
+app-014,job-02,Enterprise Account Executive,Commercial,September,Recruiter screen,2026-09-04,2026-09-07,rejected
+app-015,job-03,Developer Relations,Corporate,September,Application review,2026-09-03,2026-09-06,progressed
+app-015,job-03,Developer Relations,Corporate,September,Recruiter screen,2026-09-06,2026-09-10,progressed
+app-015,job-03,Developer Relations,Corporate,September,Hiring manager interview,2026-09-10,2026-09-11,progressed
+app-015,job-03,Developer Relations,Corporate,September,Technical / functional interview,2026-09-11,2026-09-16,withdrawn
+app-016,job-04,People Operations,Corporate,September,Application review,2026-09-01,2026-09-05,rejected
+app-017,job-01,Research Engineer,Engineering,September,Application review,2026-09-02,2026-09-03,progressed
+app-017,job-01,Research Engineer,Engineering,September,Recruiter screen,2026-09-03,2026-09-05,progressed
+app-017,job-01,Research Engineer,Engineering,September,Hiring manager interview,2026-09-05,2026-09-08,rejected
+app-018,job-02,Enterprise Account Executive,Commercial,September,Application review,2026-09-03,2026-09-05,progressed
+app-018,job-02,Enterprise Account Executive,Commercial,September,Recruiter screen,2026-09-05,2026-09-08,progressed
+app-018,job-02,Enterprise Account Executive,Commercial,September,Hiring manager interview,2026-09-08,2026-09-12,progressed
+app-018,job-02,Enterprise Account Executive,Commercial,September,Technical / functional interview,2026-09-12,2026-09-16,progressed
+app-018,job-02,Enterprise Account Executive,Commercial,September,Offer,2026-09-16,2026-09-18,rejected
+app-019,job-03,Developer Relations,Corporate,September,Application review,2026-09-01,2026-09-04,progressed
+app-019,job-03,Developer Relations,Corporate,September,Recruiter screen,2026-09-04,2026-09-08,rejected
+app-020,job-04,People Operations,Corporate,September,Application review,,2026-09-06,progressed
+app-020,job-04,People Operations,Corporate,September,Recruiter screen,2026-09-06,2026-09-07,progressed
+app-020,job-04,People Operations,Corporate,September,Hiring manager interview,2026-09-07,2026-09-09,progressed
+app-020,job-04,People Operations,Corporate,September,Technical / functional interview,2026-09-09,2026-09-15,rejected
+app-021,job-01,Research Engineer,Engineering,September,Application review,2026-09-03,2026-09-04,progressed
+app-021,job-01,Research Engineer,Engineering,September,Recruiter screen,2026-09-04,2026-09-06,rejected
+app-022,job-02,Enterprise Account Executive,Commercial,September,Application review,2026-09-01,2026-09-03,progressed
+app-022,job-02,Enterprise Account Executive,Commercial,September,Recruiter screen,2026-09-03,2026-09-06,progressed
+app-022,job-02,Enterprise Account Executive,Commercial,September,Hiring manager interview,2026-09-06,2026-09-10,progressed
+app-022,job-02,Enterprise Account Executive,Commercial,September,Technical / functional interview,2026-09-10,2026-09-14,withdrawn
+app-023,job-03,Developer Relations,Corporate,September,Application review,2026-09-02,2026-09-05,rejected
+app-024,job-04,People Operations,Corporate,September,Application review,2026-09-03,2026-09-07,progressed
+app-024,job-04,People Operations,Corporate,September,Recruiter screen,2026-09-07,2026-09-08,progressed
+app-024,job-04,People Operations,Corporate,September,Hiring manager interview,2026-09-08,2026-09-10,rejected
+app-025,job-01,Research Engineer,Engineering,September,Application review,2026-09-01,2026-09-02,progressed
+app-025,job-01,Research Engineer,Engineering,September,Recruiter screen,2026-09-02,2026-09-04,progressed
+app-025,job-01,Research Engineer,Engineering,September,Hiring manager interview,2026-09-04,2026-09-07,progressed
+app-025,job-01,Research Engineer,Engineering,September,Technical / functional interview,2026-09-07,2026-09-19,progressed
+app-025,job-01,Research Engineer,Engineering,September,Offer,,2026-09-20,hired
+app-026,job-02,Enterprise Account Executive,Commercial,September,Application review,2026-09-02,2026-09-04,progressed
+app-026,job-02,Enterprise Account Executive,Commercial,September,Recruiter screen,,2026-09-07,rejected
+app-027,job-03,Developer Relations,Corporate,September,Application review,2026-09-03,2026-09-06,progressed
+app-027,job-03,Developer Relations,Corporate,September,Recruiter screen,2026-09-06,2026-09-10,progressed
+app-027,job-03,Developer Relations,Corporate,September,Hiring manager interview,2026-09-10,2026-09-11,progressed
+app-027,job-03,Developer Relations,Corporate,September,Technical / functional interview,2026-09-11,2026-09-16,rejected
+app-028,job-04,People Operations,Corporate,September,Application review,2026-09-01,2026-09-05,rejected
+app-029,job-01,Research Engineer,Engineering,September,Application review,2026-09-02,2026-09-03,progressed
+app-029,job-01,Research Engineer,Engineering,September,Recruiter screen,2026-09-03,2026-09-05,progressed
+app-029,job-01,Research Engineer,Engineering,September,Hiring manager interview,2026-09-05,2026-09-08,withdrawn
+app-030,job-02,Enterprise Account Executive,Commercial,September,Application review,2026-09-03,2026-09-05,progressed
+app-030,job-02,Enterprise Account Executive,Commercial,September,Recruiter screen,2026-09-05,2026-09-08,progressed
+app-030,job-02,Enterprise Account Executive,Commercial,September,Hiring manager interview,2026-09-08,2026-09-12,progressed
+app-030,job-02,Enterprise Account Executive,Commercial,September,Technical / functional interview,2026-09-12,2026-09-16,progressed
+app-030,job-02,Enterprise Account Executive,Commercial,September,Offer,2026-09-16,2026-09-18,rejected
+app-031,job-03,Developer Relations,Corporate,September,Application review,2026-09-01,2026-09-04,progressed
+app-031,job-03,Developer Relations,Corporate,September,Recruiter screen,2026-09-04,2026-09-08,rejected
+app-032,job-04,People Operations,Corporate,September,Application review,2026-09-02,2026-09-06,progressed
+app-032,job-04,People Operations,Corporate,September,Recruiter screen,2026-09-06,2026-09-07,progressed
+app-032,job-04,People Operations,Corporate,September,Hiring manager interview,,2026-09-09,progressed
+app-032,job-04,People Operations,Corporate,September,Technical / functional interview,2026-09-09,2026-09-15,rejected
+app-033,job-01,Research Engineer,Engineering,September,Application review,2026-09-03,2026-09-04,rejected
+app-034,job-02,Enterprise Account Executive,Commercial,September,Application review,2026-09-01,2026-09-03,progressed
+app-034,job-02,Enterprise Account Executive,Commercial,September,Recruiter screen,2026-09-03,2026-09-06,progressed
+app-034,job-02,Enterprise Account Executive,Commercial,September,Hiring manager interview,2026-09-06,2026-09-10,rejected
+app-035,job-03,Developer Relations,Corporate,September,Application review,2026-09-02,2026-09-05,progressed
+app-035,job-03,Developer Relations,Corporate,September,Recruiter screen,2026-09-05,2026-09-09,progressed
+app-035,job-03,Developer Relations,Corporate,September,Hiring manager interview,2026-09-09,2026-09-10,progressed
+app-035,job-03,Developer Relations,Corporate,September,Technical / functional interview,2026-09-10,2026-09-15,progressed
+app-035,job-03,Developer Relations,Corporate,September,Offer,2026-09-15,2026-09-18,rejected
+app-036,job-04,People Operations,Corporate,September,Application review,2026-09-03,2026-09-07,progressed
+app-036,job-04,People Operations,Corporate,September,Recruiter screen,2026-09-07,2026-09-08,withdrawn
+app-037,job-01,Research Engineer,Engineering,September,Application review,2026-09-01,2026-09-02,progressed
+app-037,job-01,Research Engineer,Engineering,September,Recruiter screen,2026-09-02,2026-09-04,progressed
+app-037,job-01,Research Engineer,Engineering,September,Hiring manager interview,2026-09-04,2026-09-07,progressed
+app-037,job-01,Research Engineer,Engineering,September,Technical / functional interview,2026-09-07,2026-09-16,rejected
+app-038,job-05,Senior Product Designer,Corporate,September,Application review,2026-09-02,2026-09-04,rejected
+app-039,job-06,Platform Engineer,Engineering,September,Application review,,2026-09-06,progressed
+app-039,job-06,Platform Engineer,Engineering,September,Recruiter screen,2026-09-06,2026-09-10,progressed
+app-039,job-06,Platform Engineer,Engineering,September,Hiring manager interview,2026-09-10,2026-09-11,rejected
+app-040,job-07,Customer Success Manager,Commercial,September,Application review,2026-09-01,2026-09-05,progressed
+app-040,job-07,Customer Success Manager,Commercial,September,Recruiter screen,2026-09-05,2026-09-06,progressed
+app-040,job-07,Customer Success Manager,Commercial,September,Hiring manager interview,2026-09-06,2026-09-08,progressed
+app-040,job-07,Customer Success Manager,Commercial,September,Technical / functional interview,2026-09-08,2026-09-14,progressed
+app-040,job-07,Customer Success Manager,Commercial,September,Offer,2026-09-14,2026-09-18,hired
+app-041,job-08,Recruiting Coordinator,Corporate,September,Application review,2026-09-02,2026-09-03,progressed
+app-041,job-08,Recruiting Coordinator,Corporate,September,Recruiter screen,2026-09-03,2026-09-05,progressed
+app-041,job-08,Recruiting Coordinator,Corporate,September,Hiring manager interview,2026-09-05,2026-09-08,rejected
+app-042,job-09,Data Analyst,Corporate,September,Application review,2026-09-03,2026-09-05,progressed
+app-042,job-09,Data Analyst,Corporate,September,Recruiter screen,2026-09-05,2026-09-08,progressed
+app-042,job-09,Data Analyst,Corporate,September,Hiring manager interview,2026-09-08,2026-09-12,progressed
+app-042,job-09,Data Analyst,Corporate,September,Technical / functional interview,2026-09-12,2026-09-16,progressed
+app-042,job-09,Data Analyst,Corporate,September,Offer,2026-09-16,2026-09-18,rejected
+app-043,job-10,Product Manager,Corporate,September,Application review,2026-09-01,2026-09-04,progressed
+app-043,job-10,Product Manager,Corporate,September,Recruiter screen,2026-09-04,2026-09-08,withdrawn
+app-044,job-11,Finance Business Partner,Corporate,September,Application review,2026-09-02,2026-09-06,progressed
+app-044,job-11,Finance Business Partner,Corporate,September,Recruiter screen,2026-09-06,2026-09-07,progressed
+app-044,job-11,Finance Business Partner,Corporate,September,Hiring manager interview,2026-09-07,2026-09-09,progressed
+app-044,job-11,Finance Business Partner,Corporate,September,Technical / functional interview,2026-09-09,2026-09-15,rejected
+app-045,job-12,Security Engineer,Engineering,September,Application review,2026-09-03,2026-09-04,rejected
+app-046,job-13,Growth Marketing Manager,Corporate,September,Application review,2026-09-01,2026-09-03,progressed
+app-046,job-13,Growth Marketing Manager,Corporate,September,Recruiter screen,2026-09-03,2026-09-06,progressed
+app-046,job-13,Growth Marketing Manager,Corporate,September,Hiring manager interview,2026-09-06,2026-09-10,rejected
+app-047,job-14,Solutions Engineer,Engineering,September,Application review,2026-09-02,2026-09-05,progressed
+app-047,job-14,Solutions Engineer,Engineering,September,Recruiter screen,2026-09-05,2026-09-09,progressed
+app-047,job-14,Solutions Engineer,Engineering,September,Hiring manager interview,2026-09-09,2026-09-10,progressed
+app-047,job-14,Solutions Engineer,Engineering,September,Technical / functional interview,2026-09-10,2026-09-19,progressed
+app-047,job-14,Solutions Engineer,Engineering,September,Offer,2026-09-19,2026-09-22,rejected
+app-048,job-15,Talent Acquisition Partner,Corporate,September,Application review,2026-09-03,2026-09-07,progressed
+app-048,job-15,Talent Acquisition Partner,Corporate,September,Recruiter screen,2026-09-07,2026-09-08,rejected
+app-049,job-16,Sales Development Representative,Commercial,September,Application review,2026-09-01,2026-09-02,progressed
+app-049,job-16,Sales Development Representative,Commercial,September,Recruiter screen,2026-09-02,2026-09-04,progressed
+app-049,job-16,Sales Development Representative,Commercial,September,Hiring manager interview,2026-09-04,2026-09-07,progressed
+app-049,job-16,Sales Development Representative,Commercial,September,Technical / functional interview,2026-09-07,2026-09-10,rejected
+app-050,job-17,Engineering Manager,Engineering,September,Application review,2026-09-02,2026-09-04,withdrawn
+app-051,job-18,People Partner,Corporate,September,Application review,2026-09-03,2026-09-06,progressed
+app-051,job-18,People Partner,Corporate,September,Recruiter screen,2026-09-06,2026-09-10,progressed
+app-051,job-18,People Partner,Corporate,September,Hiring manager interview,,2026-09-11,rejected
+app-052,job-19,Implementation Consultant,Commercial,September,Application review,2026-09-01,2026-09-05,progressed
+app-052,job-19,Implementation Consultant,Commercial,September,Recruiter screen,2026-09-05,2026-09-06,progressed
+app-052,job-19,Implementation Consultant,Commercial,September,Hiring manager interview,2026-09-06,2026-09-08,progressed
+app-052,job-19,Implementation Consultant,Commercial,September,Technical / functional interview,2026-09-08,2026-09-14,progressed
+app-052,job-19,Implementation Consultant,Commercial,September,Offer,2026-09-14,2026-09-18,hired
+app-053,job-20,Revenue Operations Manager,Commercial,September,Application review,2026-09-02,2026-09-03,progressed
+app-053,job-20,Revenue Operations Manager,Commercial,September,Recruiter screen,2026-09-03,2026-09-05,rejected
+app-054,job-05,Senior Product Designer,Corporate,September,Application review,2026-09-03,2026-09-05,progressed
+app-054,job-05,Senior Product Designer,Corporate,September,Recruiter screen,2026-09-05,2026-09-08,progressed
+app-054,job-05,Senior Product Designer,Corporate,September,Hiring manager interview,2026-09-08,2026-09-12,progressed
+app-054,job-05,Senior Product Designer,Corporate,September,Technical / functional interview,2026-09-12,2026-09-16,rejected
+app-055,job-06,Platform Engineer,Engineering,September,Application review,2026-09-01,2026-09-04,rejected
+app-056,job-07,Customer Success Manager,Commercial,September,Application review,2026-09-02,2026-09-06,progressed
+app-056,job-07,Customer Success Manager,Commercial,September,Recruiter screen,2026-09-06,2026-09-07,progressed
+app-056,job-07,Customer Success Manager,Commercial,September,Hiring manager interview,2026-09-07,2026-09-09,rejected
+app-057,job-08,Recruiting Coordinator,Corporate,September,Application review,2026-09-03,2026-09-04,progressed
+app-057,job-08,Recruiting Coordinator,Corporate,September,Recruiter screen,2026-09-04,2026-09-06,progressed
+app-057,job-08,Recruiting Coordinator,Corporate,September,Hiring manager interview,2026-09-06,2026-09-09,progressed
+app-057,job-08,Recruiting Coordinator,Corporate,September,Technical / functional interview,,2026-09-12,progressed
+app-057,job-08,Recruiting Coordinator,Corporate,September,Offer,2026-09-12,2026-09-13,withdrawn
+app-058,job-09,Data Analyst,Corporate,September,Application review,,2026-09-03,progressed
+app-058,job-09,Data Analyst,Corporate,September,Recruiter screen,2026-09-03,2026-09-06,rejected
+app-059,job-10,Product Manager,Corporate,September,Application review,2026-09-02,2026-09-05,progressed
+app-059,job-10,Product Manager,Corporate,September,Recruiter screen,2026-09-05,2026-09-09,progressed
+app-059,job-10,Product Manager,Corporate,September,Hiring manager interview,2026-09-09,2026-09-10,progressed
+app-059,job-10,Product Manager,Corporate,September,Technical / functional interview,2026-09-10,2026-09-15,rejected
+app-060,job-11,Finance Business Partner,Corporate,September,Application review,2026-09-03,2026-09-07,rejected
+app-061,job-12,Security Engineer,Engineering,September,Application review,2026-09-01,2026-09-02,progressed
+app-061,job-12,Security Engineer,Engineering,September,Recruiter screen,2026-09-02,2026-09-04,progressed
+app-061,job-12,Security Engineer,Engineering,September,Hiring manager interview,2026-09-04,2026-09-07,progressed
+app-061,job-12,Security Engineer,Engineering,September,Technical / functional interview,2026-09-07,2026-09-15,rejected
+app-062,job-13,Growth Marketing Manager,Corporate,September,Application review,2026-09-02,2026-09-04,rejected
+app-063,job-14,Solutions Engineer,Engineering,September,Application review,2026-09-03,2026-09-06,progressed
+app-063,job-14,Solutions Engineer,Engineering,September,Recruiter screen,2026-09-06,2026-09-10,progressed
+app-063,job-14,Solutions Engineer,Engineering,September,Hiring manager interview,2026-09-10,2026-09-11,rejected
+app-064,job-15,Talent Acquisition Partner,Corporate,September,Application review,2026-09-01,2026-09-05,progressed
+app-064,job-15,Talent Acquisition Partner,Corporate,September,Recruiter screen,,2026-09-06,progressed
+app-064,job-15,Talent Acquisition Partner,Corporate,September,Hiring manager interview,2026-09-06,2026-09-08,progressed
+app-064,job-15,Talent Acquisition Partner,Corporate,September,Technical / functional interview,2026-09-08,2026-09-14,progressed
+app-064,job-15,Talent Acquisition Partner,Corporate,September,Offer,2026-09-14,2026-09-18,hired
+app-065,job-16,Sales Development Representative,Commercial,September,Application review,2026-09-02,2026-09-03,progressed
+app-065,job-16,Sales Development Representative,Commercial,September,Recruiter screen,2026-09-03,2026-09-05,rejected
+app-066,job-17,Engineering Manager,Engineering,September,Application review,2026-09-03,2026-09-05,progressed
+app-066,job-17,Engineering Manager,Engineering,September,Recruiter screen,2026-09-05,2026-09-08,progressed
+app-066,job-17,Engineering Manager,Engineering,September,Hiring manager interview,2026-09-08,2026-09-12,progressed
+app-066,job-17,Engineering Manager,Engineering,September,Technical / functional interview,2026-09-12,2026-09-20,rejected
+app-067,job-18,People Partner,Corporate,September,Application review,2026-09-01,2026-09-04,rejected
+app-068,job-19,Implementation Consultant,Commercial,September,Application review,2026-09-02,2026-09-06,progressed
+app-068,job-19,Implementation Consultant,Commercial,September,Recruiter screen,2026-09-06,2026-09-07,progressed
+app-068,job-19,Implementation Consultant,Commercial,September,Hiring manager interview,2026-09-07,2026-09-09,rejected
+app-069,job-20,Revenue Operations Manager,Commercial,September,Application review,2026-09-03,2026-09-04,progressed
+app-069,job-20,Revenue Operations Manager,Commercial,September,Recruiter screen,2026-09-04,2026-09-06,progressed
+app-069,job-20,Revenue Operations Manager,Commercial,September,Hiring manager interview,2026-09-06,2026-09-09,progressed
+app-069,job-20,Revenue Operations Manager,Commercial,September,Technical / functional interview,2026-09-09,2026-09-12,progressed
+app-069,job-20,Revenue Operations Manager,Commercial,September,Offer,2026-09-12,2026-09-13,rejected
+app-070,job-05,Senior Product Designer,Corporate,September,Application review,2026-09-01,2026-09-03,progressed
+app-070,job-05,Senior Product Designer,Corporate,September,Recruiter screen,2026-09-03,2026-09-06,rejected
+app-071,job-06,Platform Engineer,Engineering,September,Application review,2026-09-02,2026-09-05,progressed
+app-071,job-06,Platform Engineer,Engineering,September,Recruiter screen,2026-09-05,2026-09-09,progressed
+app-071,job-06,Platform Engineer,Engineering,September,Hiring manager interview,2026-09-09,2026-09-10,progressed
+app-071,job-06,Platform Engineer,Engineering,September,Technical / functional interview,2026-09-10,2026-09-18,withdrawn
+app-072,job-07,Customer Success Manager,Commercial,September,Application review,2026-09-03,2026-09-07,rejected
+app-073,job-08,Recruiting Coordinator,Corporate,September,Application review,2026-09-01,2026-09-02,progressed
+app-073,job-08,Recruiting Coordinator,Corporate,September,Recruiter screen,2026-09-02,2026-09-04,progressed
+app-073,job-08,Recruiting Coordinator,Corporate,September,Hiring manager interview,2026-09-04,2026-09-07,rejected
+app-074,job-09,Data Analyst,Corporate,September,Application review,2026-09-02,2026-09-04,progressed
+app-074,job-09,Data Analyst,Corporate,September,Recruiter screen,2026-09-04,2026-09-07,progressed
+app-074,job-09,Data Analyst,Corporate,September,Hiring manager interview,2026-09-07,2026-09-11,progressed
+app-074,job-09,Data Analyst,Corporate,September,Technical / functional interview,2026-09-11,2026-09-15,progressed
+app-074,job-09,Data Analyst,Corporate,September,Offer,2026-09-15,2026-09-17,rejected
+app-075,job-10,Product Manager,Corporate,September,Application review,2026-09-03,2026-09-06,progressed
+app-075,job-10,Product Manager,Corporate,September,Recruiter screen,2026-09-06,2026-09-10,rejected
+app-076,job-11,Finance Business Partner,Corporate,September,Application review,2026-09-01,2026-09-05,progressed
+app-076,job-11,Finance Business Partner,Corporate,September,Recruiter screen,2026-09-05,2026-09-06,progressed
+app-076,job-11,Finance Business Partner,Corporate,September,Hiring manager interview,2026-09-06,2026-09-08,progressed
+app-076,job-11,Finance Business Partner,Corporate,September,Technical / functional interview,,2026-09-14,rejected
+app-077,job-12,Security Engineer,Engineering,September,Application review,,2026-09-03,rejected
+app-078,job-13,Growth Marketing Manager,Corporate,September,Application review,2026-09-03,2026-09-05,progressed
+app-078,job-13,Growth Marketing Manager,Corporate,September,Recruiter screen,2026-09-05,2026-09-08,progressed
+app-078,job-13,Growth Marketing Manager,Corporate,September,Hiring manager interview,2026-09-08,2026-09-12,withdrawn
+app-079,job-14,Solutions Engineer,Engineering,September,Application review,2026-09-01,2026-09-04,progressed
+app-079,job-14,Solutions Engineer,Engineering,September,Recruiter screen,2026-09-04,2026-09-08,progressed
+app-079,job-14,Solutions Engineer,Engineering,September,Hiring manager interview,2026-09-08,2026-09-09,progressed
+app-079,job-14,Solutions Engineer,Engineering,September,Technical / functional interview,2026-09-09,2026-09-20,progressed
+app-079,job-14,Solutions Engineer,Engineering,September,Offer,2026-09-20,2026-09-23,hired
+app-080,job-15,Talent Acquisition Partner,Corporate,September,Application review,2026-09-02,2026-09-06,progressed
+app-080,job-15,Talent Acquisition Partner,Corporate,September,Recruiter screen,2026-09-06,2026-09-07,rejected
+app-081,job-16,Sales Development Representative,Commercial,September,Application review,2026-09-03,2026-09-04,progressed
+app-081,job-16,Sales Development Representative,Commercial,September,Recruiter screen,2026-09-04,2026-09-06,progressed
+app-081,job-16,Sales Development Representative,Commercial,September,Hiring manager interview,2026-09-06,2026-09-09,progressed
+app-081,job-16,Sales Development Representative,Commercial,September,Technical / functional interview,2026-09-09,2026-09-12,progressed
+app-081,job-16,Sales Development Representative,Commercial,September,Offer,2026-09-12,2026-09-13,rejected
+app-082,job-17,Engineering Manager,Engineering,September,Application review,2026-09-01,2026-09-03,progressed
+app-082,job-17,Engineering Manager,Engineering,September,Recruiter screen,2026-09-03,2026-09-06,rejected
+app-083,job-18,People Partner,Corporate,September,Application review,2026-09-02,2026-09-05,progressed
+app-083,job-18,People Partner,Corporate,September,Recruiter screen,,2026-09-09,progressed
+app-083,job-18,People Partner,Corporate,September,Hiring manager interview,2026-09-09,2026-09-10,progressed
+app-083,job-18,People Partner,Corporate,September,Technical / functional interview,2026-09-10,2026-09-15,rejected
+app-084,job-19,Implementation Consultant,Commercial,September,Application review,2026-09-03,2026-09-07,rejected
+app-085,job-20,Revenue Operations Manager,Commercial,September,Application review,2026-09-01,2026-09-02,progressed
+app-085,job-20,Revenue Operations Manager,Commercial,September,Recruiter screen,2026-09-02,2026-09-04,progressed
+app-085,job-20,Revenue Operations Manager,Commercial,September,Hiring manager interview,2026-09-04,2026-09-07,withdrawn
+app-086,job-05,Senior Product Designer,Corporate,September,Application review,2026-09-02,2026-09-04,progressed
+app-086,job-05,Senior Product Designer,Corporate,September,Recruiter screen,2026-09-04,2026-09-07,progressed
+app-086,job-05,Senior Product Designer,Corporate,September,Hiring manager interview,2026-09-07,2026-09-11,progressed
+app-086,job-05,Senior Product Designer,Corporate,September,Technical / functional interview,2026-09-11,2026-09-15,progressed
+app-086,job-05,Senior Product Designer,Corporate,September,Offer,2026-09-15,2026-09-17,rejected
+app-087,job-06,Platform Engineer,Engineering,September,Application review,2026-09-03,2026-09-06,progressed
+app-087,job-06,Platform Engineer,Engineering,September,Recruiter screen,2026-09-06,2026-09-10,rejected
+app-088,job-07,Customer Success Manager,Commercial,September,Application review,2026-09-01,2026-09-05,progressed
+app-088,job-07,Customer Success Manager,Commercial,September,Recruiter screen,2026-09-05,2026-09-06,progressed
+app-088,job-07,Customer Success Manager,Commercial,September,Hiring manager interview,2026-09-06,2026-09-08,progressed
+app-088,job-07,Customer Success Manager,Commercial,September,Technical / functional interview,2026-09-08,2026-09-14,rejected
+app-089,job-08,Recruiting Coordinator,Corporate,September,Application review,2026-09-02,2026-09-03,rejected
+app-090,job-09,Data Analyst,Corporate,September,Application review,2026-09-03,2026-09-05,progressed
+app-090,job-09,Data Analyst,Corporate,September,Recruiter screen,2026-09-05,2026-09-08,progressed
+app-090,job-09,Data Analyst,Corporate,September,Hiring manager interview,2026-09-08,2026-09-12,rejected
+app-091,job-10,Product Manager,Corporate,September,Application review,2026-09-01,2026-09-04,progressed
+app-091,job-10,Product Manager,Corporate,September,Recruiter screen,2026-09-04,2026-09-08,progressed
+app-091,job-10,Product Manager,Corporate,September,Hiring manager interview,2026-09-08,2026-09-09,progressed
+app-091,job-10,Product Manager,Corporate,September,Technical / functional interview,2026-09-09,2026-09-14,progressed
+app-091,job-10,Product Manager,Corporate,September,Offer,2026-09-14,2026-09-17,hired
+app-092,job-11,Finance Business Partner,Corporate,September,Application review,2026-09-02,2026-09-06,progressed
+app-092,job-11,Finance Business Partner,Corporate,September,Recruiter screen,2026-09-06,2026-09-07,withdrawn
+app-093,job-12,Security Engineer,Engineering,September,Application review,2026-09-03,2026-09-04,progressed
+app-093,job-12,Security Engineer,Engineering,September,Recruiter screen,2026-09-04,2026-09-06,progressed
+app-093,job-12,Security Engineer,Engineering,September,Hiring manager interview,2026-09-06,2026-09-09,progressed
+app-093,job-12,Security Engineer,Engineering,September,Technical / functional interview,2026-09-09,2026-09-19,rejected
+app-094,job-13,Growth Marketing Manager,Corporate,September,Application review,2026-09-01,2026-09-03,rejected
+app-095,job-14,Solutions Engineer,Engineering,September,Application review,2026-09-02,2026-09-05,progressed
+app-095,job-14,Solutions Engineer,Engineering,September,Recruiter screen,2026-09-05,2026-09-09,progressed
+app-095,job-14,Solutions Engineer,Engineering,September,Hiring manager interview,2026-09-09,2026-09-10,rejected
+app-096,job-15,Talent Acquisition Partner,Corporate,September,Application review,,2026-09-07,progressed
+app-096,job-15,Talent Acquisition Partner,Corporate,September,Recruiter screen,2026-09-07,2026-09-08,progressed
+app-096,job-15,Talent Acquisition Partner,Corporate,September,Hiring manager interview,2026-09-08,2026-09-10,progressed
+app-096,job-15,Talent Acquisition Partner,Corporate,September,Technical / functional interview,2026-09-10,2026-09-16,progressed
+app-096,job-15,Talent Acquisition Partner,Corporate,September,Offer,2026-09-16,2026-09-20,rejected
+app-097,job-16,Sales Development Representative,Commercial,September,Application review,2026-09-01,2026-09-02,progressed
+app-097,job-16,Sales Development Representative,Commercial,September,Recruiter screen,2026-09-02,2026-09-04,rejected
+app-098,job-17,Engineering Manager,Engineering,September,Application review,2026-09-02,2026-09-04,progressed
+app-098,job-17,Engineering Manager,Engineering,September,Recruiter screen,2026-09-04,2026-09-07,progressed
+app-098,job-17,Engineering Manager,Engineering,September,Hiring manager interview,2026-09-07,2026-09-11,progressed
+app-098,job-17,Engineering Manager,Engineering,September,Technical / functional interview,2026-09-11,2026-09-21,rejected
+app-099,job-18,People Partner,Corporate,September,Application review,2026-09-03,2026-09-06,withdrawn
+app-100,job-19,Implementation Consultant,Commercial,September,Application review,2026-09-01,2026-09-05,progressed
+app-100,job-19,Implementation Consultant,Commercial,September,Recruiter screen,2026-09-05,2026-09-06,progressed
+app-100,job-19,Implementation Consultant,Commercial,September,Hiring manager interview,2026-09-06,2026-09-08,rejected
+app-101,job-20,Revenue Operations Manager,Commercial,September,Application review,2026-09-02,2026-09-03,rejected
+app-102,job-05,Senior Product Designer,Corporate,September,Application review,2026-09-03,2026-09-05,progressed
+app-102,job-05,Senior Product Designer,Corporate,September,Recruiter screen,,2026-09-08,progressed
+app-102,job-05,Senior Product Designer,Corporate,September,Hiring manager interview,2026-09-08,2026-09-12,rejected
+app-103,job-06,Platform Engineer,Engineering,September,Application review,2026-09-01,2026-09-04,progressed
+app-103,job-06,Platform Engineer,Engineering,September,Recruiter screen,2026-09-04,2026-09-08,progressed
+app-103,job-06,Platform Engineer,Engineering,September,Hiring manager interview,2026-09-08,2026-09-09,progressed
+app-103,job-06,Platform Engineer,Engineering,September,Technical / functional interview,2026-09-09,2026-09-19,progressed
+app-103,job-06,Platform Engineer,Engineering,September,Offer,2026-09-19,2026-09-22,hired
+app-104,job-07,Customer Success Manager,Commercial,September,Application review,2026-09-02,2026-09-06,progressed
+app-104,job-07,Customer Success Manager,Commercial,September,Recruiter screen,2026-09-06,2026-09-07,rejected
+app-105,job-08,Recruiting Coordinator,Corporate,September,Application review,2026-09-03,2026-09-04,progressed
+app-105,job-08,Recruiting Coordinator,Corporate,September,Recruiter screen,2026-09-04,2026-09-06,progressed
+app-105,job-08,Recruiting Coordinator,Corporate,September,Hiring manager interview,2026-09-06,2026-09-09,progressed
+app-105,job-08,Recruiting Coordinator,Corporate,September,Technical / functional interview,2026-09-09,2026-09-12,rejected
+app-106,job-09,Data Analyst,Corporate,September,Application review,2026-09-01,2026-09-03,withdrawn
+app-107,job-10,Product Manager,Corporate,September,Application review,2026-09-02,2026-09-05,progressed
+app-107,job-10,Product Manager,Corporate,September,Recruiter screen,2026-09-05,2026-09-09,progressed
+app-107,job-10,Product Manager,Corporate,September,Hiring manager interview,2026-09-09,2026-09-10,rejected
+app-108,job-11,Finance Business Partner,Corporate,September,Application review,2026-09-03,2026-09-07,progressed
+app-108,job-11,Finance Business Partner,Corporate,September,Recruiter screen,2026-09-07,2026-09-08,progressed
+app-108,job-11,Finance Business Partner,Corporate,September,Hiring manager interview,,2026-09-10,progressed
+app-108,job-11,Finance Business Partner,Corporate,September,Technical / functional interview,2026-09-10,2026-09-16,progressed
+app-108,job-11,Finance Business Partner,Corporate,September,Offer,2026-09-16,2026-09-20,rejected
+app-109,job-12,Security Engineer,Engineering,September,Application review,2026-09-01,2026-09-02,progressed
+app-109,job-12,Security Engineer,Engineering,September,Recruiter screen,2026-09-02,2026-09-04,rejected
+app-110,job-13,Growth Marketing Manager,Corporate,September,Application review,2026-09-02,2026-09-04,progressed
+app-110,job-13,Growth Marketing Manager,Corporate,September,Recruiter screen,2026-09-04,2026-09-07,progressed
+app-110,job-13,Growth Marketing Manager,Corporate,September,Hiring manager interview,2026-09-07,2026-09-11,progressed
+app-110,job-13,Growth Marketing Manager,Corporate,September,Technical / functional interview,2026-09-11,2026-09-15,rejected
+app-111,job-14,Solutions Engineer,Engineering,September,Application review,2026-09-03,2026-09-06,rejected
+app-112,job-15,Talent Acquisition Partner,Corporate,September,Application review,2026-09-01,2026-09-05,progressed
+app-112,job-15,Talent Acquisition Partner,Corporate,September,Recruiter screen,2026-09-05,2026-09-06,progressed
+app-112,job-15,Talent Acquisition Partner,Corporate,September,Hiring manager interview,2026-09-06,2026-09-08,rejected
+app-113,job-16,Sales Development Representative,Commercial,September,Application review,2026-09-02,2026-09-03,progressed
+app-113,job-16,Sales Development Representative,Commercial,September,Recruiter screen,2026-09-03,2026-09-05,progressed
+app-113,job-16,Sales Development Representative,Commercial,September,Hiring manager interview,2026-09-05,2026-09-08,progressed
+app-113,job-16,Sales Development Representative,Commercial,September,Technical / functional interview,2026-09-08,2026-09-11,progressed
+app-113,job-16,Sales Development Representative,Commercial,September,Offer,2026-09-11,2026-09-12,withdrawn
+app-114,job-17,Engineering Manager,Engineering,September,Application review,2026-09-03,2026-09-05,progressed
+app-114,job-17,Engineering Manager,Engineering,September,Recruiter screen,2026-09-05,2026-09-08,rejected
+app-115,job-18,People Partner,Corporate,September,Application review,,2026-09-04,progressed
+app-115,job-18,People Partner,Corporate,September,Recruiter screen,2026-09-04,2026-09-08,progressed
+app-115,job-18,People Partner,Corporate,September,Hiring manager interview,2026-09-08,2026-09-09,progressed
+app-115,job-18,People Partner,Corporate,September,Technical / functional interview,2026-09-09,2026-09-14,rejected
+app-116,job-19,Implementation Consultant,Commercial,September,Application review,2026-09-02,2026-09-06,rejected
+app-117,job-20,Revenue Operations Manager,Commercial,September,Application review,2026-09-03,2026-09-04,progressed
+app-117,job-20,Revenue Operations Manager,Commercial,September,Recruiter screen,2026-09-04,2026-09-06,progressed
+app-117,job-20,Revenue Operations Manager,Commercial,September,Hiring manager interview,2026-09-06,2026-09-09,rejected
+app-118,job-05,Senior Product Designer,Corporate,September,Application review,2026-09-01,2026-09-03,progressed
+app-118,job-05,Senior Product Designer,Corporate,September,Recruiter screen,2026-09-03,2026-09-06,progressed
+app-118,job-05,Senior Product Designer,Corporate,September,Hiring manager interview,2026-09-06,2026-09-10,progressed
+app-118,job-05,Senior Product Designer,Corporate,September,Technical / functional interview,2026-09-10,2026-09-14,progressed
+app-118,job-05,Senior Product Designer,Corporate,September,Offer,2026-09-14,2026-09-16,hired
+app-119,job-06,Platform Engineer,Engineering,September,Application review,2026-09-02,2026-09-05,progressed
+app-119,job-06,Platform Engineer,Engineering,September,Recruiter screen,2026-09-05,2026-09-09,rejected
+app-120,job-07,Customer Success Manager,Commercial,September,Application review,2026-09-03,2026-09-07,progressed
+app-120,job-07,Customer Success Manager,Commercial,September,Recruiter screen,2026-09-07,2026-09-08,progressed
+app-120,job-07,Customer Success Manager,Commercial,September,Hiring manager interview,2026-09-08,2026-09-10,progressed
+app-120,job-07,Customer Success Manager,Commercial,September,Technical / functional interview,2026-09-10,2026-09-16,withdrawn
+app-121,job-08,Recruiting Coordinator,Corporate,October,Application review,2026-10-01,2026-10-02,progressed
+app-121,job-08,Recruiting Coordinator,Corporate,October,Recruiter screen,,,active
+app-122,job-09,Data Analyst,Corporate,October,Application review,2026-10-02,2026-10-04,progressed
+app-122,job-09,Data Analyst,Corporate,October,Recruiter screen,2026-10-04,2026-10-07,progressed
+app-122,job-09,Data Analyst,Corporate,October,Hiring manager interview,2026-10-07,2026-10-11,progressed
+app-122,job-09,Data Analyst,Corporate,October,Technical / functional interview,2026-10-11,2026-10-15,rejected
+app-123,job-10,Product Manager,Corporate,October,Application review,2026-10-03,2026-10-06,rejected
+app-124,job-11,Finance Business Partner,Corporate,October,Application review,2026-10-01,2026-10-05,progressed
+app-124,job-11,Finance Business Partner,Corporate,October,Recruiter screen,2026-10-05,2026-10-06,progressed
+app-124,job-11,Finance Business Partner,Corporate,October,Hiring manager interview,2026-10-06,2026-10-08,rejected
+app-125,job-12,Security Engineer,Engineering,October,Application review,2026-10-02,2026-10-03,progressed
+app-125,job-12,Security Engineer,Engineering,October,Recruiter screen,2026-10-03,2026-10-05,progressed
+app-125,job-12,Security Engineer,Engineering,October,Hiring manager interview,2026-10-05,2026-10-08,progressed
+app-125,job-12,Security Engineer,Engineering,October,Technical / functional interview,2026-10-08,2026-10-22,progressed
+app-125,job-12,Security Engineer,Engineering,October,Offer,2026-10-22,,active
+app-126,job-13,Growth Marketing Manager,Corporate,October,Application review,2026-10-03,2026-10-05,progressed
+app-126,job-13,Growth Marketing Manager,Corporate,October,Recruiter screen,2026-10-05,2026-10-08,rejected
+app-127,job-14,Solutions Engineer,Engineering,October,Application review,2026-10-01,2026-10-04,progressed
+app-127,job-14,Solutions Engineer,Engineering,October,Recruiter screen,2026-10-04,2026-10-08,progressed
+app-127,job-14,Solutions Engineer,Engineering,October,Hiring manager interview,,2026-10-09,progressed
+app-127,job-14,Solutions Engineer,Engineering,October,Technical / functional interview,2026-10-09,2026-10-20,withdrawn
+app-128,job-15,Talent Acquisition Partner,Corporate,October,Application review,2026-10-02,2026-10-06,rejected
+app-129,job-16,Sales Development Representative,Commercial,October,Application review,2026-10-03,2026-10-04,progressed
+app-129,job-16,Sales Development Representative,Commercial,October,Recruiter screen,2026-10-04,2026-10-06,progressed
+app-129,job-16,Sales Development Representative,Commercial,October,Hiring manager interview,2026-10-06,,active
+app-130,job-17,Engineering Manager,Engineering,October,Application review,2026-10-01,2026-10-03,progressed
+app-130,job-17,Engineering Manager,Engineering,October,Recruiter screen,2026-10-03,2026-10-06,progressed
+app-130,job-17,Engineering Manager,Engineering,October,Hiring manager interview,2026-10-06,2026-10-10,progressed
+app-130,job-17,Engineering Manager,Engineering,October,Technical / functional interview,2026-10-10,2026-10-24,progressed
+app-130,job-17,Engineering Manager,Engineering,October,Offer,2026-10-24,2026-10-26,hired
+app-131,job-18,People Partner,Corporate,October,Application review,2026-10-02,2026-10-05,progressed
+app-131,job-18,People Partner,Corporate,October,Recruiter screen,2026-10-05,2026-10-09,rejected
+app-132,job-19,Implementation Consultant,Commercial,October,Application review,2026-10-03,2026-10-07,progressed
+app-132,job-19,Implementation Consultant,Commercial,October,Recruiter screen,2026-10-07,2026-10-08,progressed
+app-132,job-19,Implementation Consultant,Commercial,October,Hiring manager interview,2026-10-08,2026-10-10,progressed
+app-132,job-19,Implementation Consultant,Commercial,October,Technical / functional interview,2026-10-10,2026-10-16,rejected
+app-133,job-20,Revenue Operations Manager,Commercial,October,Application review,2026-10-01,,active
+app-134,job-05,Senior Product Designer,Corporate,October,Application review,,2026-10-04,progressed
+app-134,job-05,Senior Product Designer,Corporate,October,Recruiter screen,2026-10-04,2026-10-07,progressed
+app-134,job-05,Senior Product Designer,Corporate,October,Hiring manager interview,2026-10-07,2026-10-11,withdrawn
+app-135,job-06,Platform Engineer,Engineering,October,Application review,2026-10-03,2026-10-06,progressed
+app-135,job-06,Platform Engineer,Engineering,October,Recruiter screen,2026-10-06,2026-10-10,progressed
+app-135,job-06,Platform Engineer,Engineering,October,Hiring manager interview,2026-10-10,2026-10-11,progressed
+app-135,job-06,Platform Engineer,Engineering,October,Technical / functional interview,2026-10-11,2026-10-25,progressed
+app-135,job-06,Platform Engineer,Engineering,October,Offer,2026-10-25,2026-10-28,rejected
+app-136,job-07,Customer Success Manager,Commercial,October,Application review,2026-10-01,2026-10-05,progressed
+app-136,job-07,Customer Success Manager,Commercial,October,Recruiter screen,2026-10-05,2026-10-06,rejected
+app-137,job-08,Recruiting Coordinator,Corporate,October,Application review,2026-10-02,2026-10-03,progressed
+app-137,job-08,Recruiting Coordinator,Corporate,October,Recruiter screen,2026-10-03,2026-10-05,progressed
+app-137,job-08,Recruiting Coordinator,Corporate,October,Hiring manager interview,2026-10-05,2026-10-08,progressed
+app-137,job-08,Recruiting Coordinator,Corporate,October,Technical / functional interview,2026-10-08,,active
+app-138,job-09,Data Analyst,Corporate,October,Application review,2026-10-03,2026-10-05,rejected
+app-139,job-10,Product Manager,Corporate,October,Application review,2026-10-01,2026-10-04,progressed
+app-139,job-10,Product Manager,Corporate,October,Recruiter screen,2026-10-04,2026-10-08,progressed
+app-139,job-10,Product Manager,Corporate,October,Hiring manager interview,2026-10-08,2026-10-09,rejected
+app-140,job-11,Finance Business Partner,Corporate,October,Application review,2026-10-02,2026-10-06,progressed
+app-140,job-11,Finance Business Partner,Corporate,October,Recruiter screen,,2026-10-07,progressed
+app-140,job-11,Finance Business Partner,Corporate,October,Hiring manager interview,2026-10-07,2026-10-09,progressed
+app-140,job-11,Finance Business Partner,Corporate,October,Technical / functional interview,2026-10-09,2026-10-15,progressed
+app-140,job-11,Finance Business Partner,Corporate,October,Offer,2026-10-15,2026-10-19,rejected
+app-141,job-12,Security Engineer,Engineering,October,Application review,2026-10-03,2026-10-04,progressed
+app-141,job-12,Security Engineer,Engineering,October,Recruiter screen,2026-10-04,2026-10-06,progressed
+app-141,job-12,Security Engineer,Engineering,October,Hiring manager interview,2026-10-06,,active
+app-142,job-13,Growth Marketing Manager,Corporate,October,Application review,2026-10-01,2026-10-03,progressed
+app-142,job-13,Growth Marketing Manager,Corporate,October,Recruiter screen,2026-10-03,2026-10-06,progressed
+app-142,job-13,Growth Marketing Manager,Corporate,October,Hiring manager interview,2026-10-06,2026-10-10,progressed
+app-142,job-13,Growth Marketing Manager,Corporate,October,Technical / functional interview,2026-10-10,2026-10-14,progressed
+app-142,job-13,Growth Marketing Manager,Corporate,October,Offer,2026-10-14,2026-10-16,hired
+app-143,job-14,Solutions Engineer,Engineering,October,Application review,2026-10-02,2026-10-05,progressed
+app-143,job-14,Solutions Engineer,Engineering,October,Recruiter screen,2026-10-05,2026-10-09,rejected
+app-144,job-15,Talent Acquisition Partner,Corporate,October,Application review,2026-10-03,2026-10-07,progressed
+app-144,job-15,Talent Acquisition Partner,Corporate,October,Recruiter screen,2026-10-07,2026-10-08,progressed
+app-144,job-15,Talent Acquisition Partner,Corporate,October,Hiring manager interview,2026-10-08,2026-10-10,progressed
+app-144,job-15,Talent Acquisition Partner,Corporate,October,Technical / functional interview,2026-10-10,2026-10-16,rejected
+app-145,job-16,Sales Development Representative,Commercial,October,Application review,2026-10-01,,active
+app-146,job-17,Engineering Manager,Engineering,October,Application review,2026-10-02,2026-10-04,progressed
+app-146,job-17,Engineering Manager,Engineering,October,Recruiter screen,2026-10-04,2026-10-07,progressed
+app-146,job-17,Engineering Manager,Engineering,October,Hiring manager interview,,2026-10-11,rejected
+app-147,job-18,People Partner,Corporate,October,Application review,2026-10-03,2026-10-06,progressed
+app-147,job-18,People Partner,Corporate,October,Recruiter screen,2026-10-06,2026-10-10,progressed
+app-147,job-18,People Partner,Corporate,October,Hiring manager interview,2026-10-10,2026-10-11,progressed
+app-147,job-18,People Partner,Corporate,October,Technical / functional interview,2026-10-11,2026-10-16,progressed
+app-147,job-18,People Partner,Corporate,October,Offer,2026-10-16,2026-10-19,rejected
+app-148,job-19,Implementation Consultant,Commercial,October,Application review,2026-10-01,2026-10-05,progressed
+app-148,job-19,Implementation Consultant,Commercial,October,Recruiter screen,2026-10-05,2026-10-06,withdrawn
+app-149,job-20,Revenue Operations Manager,Commercial,October,Application review,2026-10-02,2026-10-03,progressed
+app-149,job-20,Revenue Operations Manager,Commercial,October,Recruiter screen,2026-10-03,2026-10-05,progressed
+app-149,job-20,Revenue Operations Manager,Commercial,October,Hiring manager interview,2026-10-05,2026-10-08,progressed
+app-149,job-20,Revenue Operations Manager,Commercial,October,Technical / functional interview,2026-10-08,,active
+app-150,job-05,Senior Product Designer,Corporate,October,Application review,2026-10-03,2026-10-05,rejected
+app-151,job-06,Platform Engineer,Engineering,October,Application review,2026-10-01,2026-10-04,progressed
+app-151,job-06,Platform Engineer,Engineering,October,Recruiter screen,2026-10-04,2026-10-08,progressed
+app-151,job-06,Platform Engineer,Engineering,October,Hiring manager interview,2026-10-08,2026-10-09,rejected
+app-152,job-07,Customer Success Manager,Commercial,October,Application review,2026-10-02,2026-10-06,progressed
+app-152,job-07,Customer Success Manager,Commercial,October,Recruiter screen,2026-10-06,2026-10-07,progressed
+app-152,job-07,Customer Success Manager,Commercial,October,Hiring manager interview,2026-10-07,2026-10-09,progressed
+app-152,job-07,Customer Success Manager,Commercial,October,Technical / functional interview,,2026-10-15,progressed
+app-152,job-07,Customer Success Manager,Commercial,October,Offer,2026-10-15,2026-10-19,rejected
+app-153,job-08,Recruiting Coordinator,Corporate,October,Application review,,2026-10-04,progressed
+app-153,job-08,Recruiting Coordinator,Corporate,October,Recruiter screen,2026-10-04,,active
+app-154,job-09,Data Analyst,Corporate,October,Application review,2026-10-01,2026-10-03,progressed
+app-154,job-09,Data Analyst,Corporate,October,Recruiter screen,2026-10-03,2026-10-06,progressed
+app-154,job-09,Data Analyst,Corporate,October,Hiring manager interview,2026-10-06,2026-10-10,progressed
+app-154,job-09,Data Analyst,Corporate,October,Technical / functional interview,2026-10-10,2026-10-14,rejected
+app-155,job-10,Product Manager,Corporate,October,Application review,2026-10-02,2026-10-05,withdrawn
+app-156,job-11,Finance Business Partner,Corporate,October,Application review,2026-10-03,2026-10-07,progressed
+app-156,job-11,Finance Business Partner,Corporate,October,Recruiter screen,2026-10-07,2026-10-08,progressed
+app-156,job-11,Finance Business Partner,Corporate,October,Hiring manager interview,2026-10-08,2026-10-10,rejected
+app-157,job-12,Security Engineer,Engineering,October,Application review,2026-10-01,2026-10-02,progressed
+app-157,job-12,Security Engineer,Engineering,October,Recruiter screen,2026-10-02,2026-10-04,progressed
+app-157,job-12,Security Engineer,Engineering,October,Hiring manager interview,2026-10-04,2026-10-07,progressed
+app-157,job-12,Security Engineer,Engineering,October,Technical / functional interview,2026-10-07,2026-10-18,progressed
+app-157,job-12,Security Engineer,Engineering,October,Offer,2026-10-18,,active
+app-158,job-13,Growth Marketing Manager,Corporate,October,Application review,2026-10-02,2026-10-04,progressed
+app-158,job-13,Growth Marketing Manager,Corporate,October,Recruiter screen,2026-10-04,2026-10-07,rejected
+app-159,job-14,Solutions Engineer,Engineering,October,Application review,2026-10-03,2026-10-06,progressed
+app-159,job-14,Solutions Engineer,Engineering,October,Recruiter screen,,2026-10-10,progressed
+app-159,job-14,Solutions Engineer,Engineering,October,Hiring manager interview,2026-10-10,2026-10-11,progressed
+app-159,job-14,Solutions Engineer,Engineering,October,Technical / functional interview,2026-10-11,2026-10-24,rejected
+app-160,job-15,Talent Acquisition Partner,Corporate,October,Application review,2026-10-01,2026-10-05,rejected
+app-161,job-16,Sales Development Representative,Commercial,October,Application review,2026-10-02,2026-10-03,progressed
+app-161,job-16,Sales Development Representative,Commercial,October,Recruiter screen,2026-10-03,2026-10-05,progressed
+app-161,job-16,Sales Development Representative,Commercial,October,Hiring manager interview,2026-10-05,2026-10-08,progressed
+app-161,job-16,Sales Development Representative,Commercial,October,Technical / functional interview,2026-10-08,,active
+app-162,job-17,Engineering Manager,Engineering,October,Application review,2026-10-03,2026-10-05,withdrawn
+app-163,job-18,People Partner,Corporate,October,Application review,2026-10-01,2026-10-04,progressed
+app-163,job-18,People Partner,Corporate,October,Recruiter screen,2026-10-04,2026-10-08,progressed
+app-163,job-18,People Partner,Corporate,October,Hiring manager interview,2026-10-08,2026-10-09,rejected
+app-164,job-19,Implementation Consultant,Commercial,October,Application review,2026-10-02,2026-10-06,progressed
+app-164,job-19,Implementation Consultant,Commercial,October,Recruiter screen,2026-10-06,2026-10-07,progressed
+app-164,job-19,Implementation Consultant,Commercial,October,Hiring manager interview,2026-10-07,2026-10-09,progressed
+app-164,job-19,Implementation Consultant,Commercial,October,Technical / functional interview,2026-10-09,2026-10-15,progressed
+app-164,job-19,Implementation Consultant,Commercial,October,Offer,2026-10-15,2026-10-19,rejected
+app-165,job-20,Revenue Operations Manager,Commercial,October,Application review,2026-10-03,2026-10-04,progressed
+app-165,job-20,Revenue Operations Manager,Commercial,October,Recruiter screen,2026-10-04,,active
+app-166,job-05,Senior Product Designer,Corporate,October,Application review,2026-10-01,2026-10-03,progressed
+app-166,job-05,Senior Product Designer,Corporate,October,Recruiter screen,2026-10-03,2026-10-06,progressed
+app-166,job-05,Senior Product Designer,Corporate,October,Hiring manager interview,2026-10-06,2026-10-10,progressed
+app-166,job-05,Senior Product Designer,Corporate,October,Technical / functional interview,2026-10-10,2026-10-14,rejected
+app-167,job-06,Platform Engineer,Engineering,October,Application review,2026-10-02,2026-10-05,rejected
+app-168,job-07,Customer Success Manager,Commercial,October,Application review,2026-10-03,2026-10-07,progressed
+app-168,job-07,Customer Success Manager,Commercial,October,Recruiter screen,2026-10-07,2026-10-08,progressed
+app-168,job-07,Customer Success Manager,Commercial,October,Hiring manager interview,2026-10-08,2026-10-10,rejected
+app-169,job-08,Recruiting Coordinator,Corporate,October,Application review,2026-10-01,2026-10-02,progressed
+app-169,job-08,Recruiting Coordinator,Corporate,October,Recruiter screen,2026-10-02,2026-10-04,progressed
+app-169,job-08,Recruiting Coordinator,Corporate,October,Hiring manager interview,2026-10-04,2026-10-07,progressed
+app-169,job-08,Recruiting Coordinator,Corporate,October,Technical / functional interview,2026-10-07,2026-10-10,progressed
+app-169,job-08,Recruiting Coordinator,Corporate,October,Offer,2026-10-10,,active
+app-170,job-09,Data Analyst,Corporate,October,Application review,2026-10-02,2026-10-04,progressed
+app-170,job-09,Data Analyst,Corporate,October,Recruiter screen,2026-10-04,2026-10-07,rejected
+app-171,job-10,Product Manager,Corporate,October,Application review,2026-10-03,2026-10-06,progressed
+app-171,job-10,Product Manager,Corporate,October,Recruiter screen,2026-10-06,2026-10-10,progressed
+app-171,job-10,Product Manager,Corporate,October,Hiring manager interview,2026-10-10,2026-10-11,progressed
+app-171,job-10,Product Manager,Corporate,October,Technical / functional interview,,2026-10-16,rejected
+app-172,job-11,Finance Business Partner,Corporate,October,Application review,,2026-10-05,rejected
+app-173,job-12,Security Engineer,Engineering,October,Application review,2026-10-02,2026-10-03,progressed
+app-173,job-12,Security Engineer,Engineering,October,Recruiter screen,2026-10-03,2026-10-05,progressed
+app-173,job-12,Security Engineer,Engineering,October,Hiring manager interview,2026-10-05,,active
+app-174,job-13,Growth Marketing Manager,Corporate,October,Application review,2026-10-03,2026-10-05,progressed
+app-174,job-13,Growth Marketing Manager,Corporate,October,Recruiter screen,2026-10-05,2026-10-08,progressed
+app-174,job-13,Growth Marketing Manager,Corporate,October,Hiring manager interview,2026-10-08,2026-10-12,progressed
+app-174,job-13,Growth Marketing Manager,Corporate,October,Technical / functional interview,2026-10-12,2026-10-16,progressed
+app-174,job-13,Growth Marketing Manager,Corporate,October,Offer,2026-10-16,2026-10-18,rejected
+app-175,job-14,Solutions Engineer,Engineering,October,Application review,2026-10-01,2026-10-04,progressed
+app-175,job-14,Solutions Engineer,Engineering,October,Recruiter screen,2026-10-04,2026-10-08,rejected
+app-176,job-15,Talent Acquisition Partner,Corporate,October,Application review,2026-10-02,2026-10-06,progressed
+app-176,job-15,Talent Acquisition Partner,Corporate,October,Recruiter screen,2026-10-06,2026-10-07,progressed
+app-176,job-15,Talent Acquisition Partner,Corporate,October,Hiring manager interview,2026-10-07,2026-10-09,progressed
+app-176,job-15,Talent Acquisition Partner,Corporate,October,Technical / functional interview,2026-10-09,2026-10-15,withdrawn
+app-177,job-16,Sales Development Representative,Commercial,October,Application review,2026-10-03,,active
+app-178,job-17,Engineering Manager,Engineering,October,Application review,2026-10-01,2026-10-03,progressed
+app-178,job-17,Engineering Manager,Engineering,October,Recruiter screen,,2026-10-06,progressed
+app-178,job-17,Engineering Manager,Engineering,October,Hiring manager interview,2026-10-06,2026-10-10,rejected
+app-179,job-18,People Partner,Corporate,October,Application review,2026-10-02,2026-10-05,progressed
+app-179,job-18,People Partner,Corporate,October,Recruiter screen,2026-10-05,2026-10-09,progressed
+app-179,job-18,People Partner,Corporate,October,Hiring manager interview,2026-10-09,2026-10-10,progressed
+app-179,job-18,People Partner,Corporate,October,Technical / functional interview,2026-10-10,2026-10-15,progressed
+app-179,job-18,People Partner,Corporate,October,Offer,2026-10-15,2026-10-18,rejected
+app-180,job-19,Implementation Consultant,Commercial,October,Application review,2026-10-03,2026-10-07,progressed
+app-180,job-19,Implementation Consultant,Commercial,October,Recruiter screen,2026-10-07,2026-10-08,rejected
+app-181,job-20,Revenue Operations Manager,Commercial,October,Application review,2026-10-01,2026-10-02,progressed
+app-181,job-20,Revenue Operations Manager,Commercial,October,Recruiter screen,2026-10-02,2026-10-04,progressed
+app-181,job-20,Revenue Operations Manager,Commercial,October,Hiring manager interview,2026-10-04,2026-10-07,progressed
+app-181,job-20,Revenue Operations Manager,Commercial,October,Technical / functional interview,2026-10-07,2026-10-10,progressed
+app-181,job-20,Revenue Operations Manager,Commercial,October,Offer,2026-10-10,,active
+app-182,job-05,Senior Product Designer,Corporate,October,Application review,2026-10-02,2026-10-04,progressed
+app-182,job-05,Senior Product Designer,Corporate,October,Recruiter screen,2026-10-04,2026-10-07,rejected
+app-183,job-06,Platform Engineer,Engineering,October,Application review,2026-10-03,2026-10-06,progressed
+app-183,job-06,Platform Engineer,Engineering,October,Recruiter screen,2026-10-06,2026-10-10,progressed
+app-183,job-06,Platform Engineer,Engineering,October,Hiring manager interview,2026-10-10,2026-10-11,progressed
+app-183,job-06,Platform Engineer,Engineering,October,Technical / functional interview,2026-10-11,2026-10-23,withdrawn
+app-184,job-07,Customer Success Manager,Commercial,October,Application review,2026-10-01,2026-10-05,rejected
+app-185,job-08,Recruiting Coordinator,Corporate,October,Application review,2026-10-02,2026-10-03,progressed
+app-185,job-08,Recruiting Coordinator,Corporate,October,Recruiter screen,2026-10-03,2026-10-05,progressed
+app-185,job-08,Recruiting Coordinator,Corporate,October,Hiring manager interview,2026-10-05,,active
+app-186,job-09,Data Analyst,Corporate,October,Application review,2026-10-03,2026-10-05,progressed
+app-186,job-09,Data Analyst,Corporate,October,Recruiter screen,2026-10-05,2026-10-08,progressed
+app-186,job-09,Data Analyst,Corporate,October,Hiring manager interview,2026-10-08,2026-10-12,progressed
+app-186,job-09,Data Analyst,Corporate,October,Technical / functional interview,2026-10-12,2026-10-16,progressed
+app-186,job-09,Data Analyst,Corporate,October,Offer,2026-10-16,2026-10-18,rejected
+app-187,job-10,Product Manager,Corporate,October,Application review,2026-10-01,2026-10-04,progressed
+app-187,job-10,Product Manager,Corporate,October,Recruiter screen,2026-10-04,2026-10-08,rejected
+app-188,job-11,Finance Business Partner,Corporate,October,Application review,2026-10-02,2026-10-06,progressed
+app-188,job-11,Finance Business Partner,Corporate,October,Recruiter screen,2026-10-06,2026-10-07,progressed
+app-188,job-11,Finance Business Partner,Corporate,October,Hiring manager interview,2026-10-07,2026-10-09,progressed
+app-188,job-11,Finance Business Partner,Corporate,October,Technical / functional interview,2026-10-09,2026-10-15,rejected
+app-189,job-12,Security Engineer,Engineering,October,Application review,2026-10-03,,active
+app-190,job-13,Growth Marketing Manager,Corporate,October,Application review,2026-10-01,2026-10-03,progressed
+app-190,job-13,Growth Marketing Manager,Corporate,October,Recruiter screen,2026-10-03,2026-10-06,progressed
+app-190,job-13,Growth Marketing Manager,Corporate,October,Hiring manager interview,2026-10-06,2026-10-10,withdrawn
+app-191,job-14,Solutions Engineer,Engineering,October,Application review,,2026-10-05,progressed
+app-191,job-14,Solutions Engineer,Engineering,October,Recruiter screen,2026-10-05,2026-10-09,progressed
+app-191,job-14,Solutions Engineer,Engineering,October,Hiring manager interview,2026-10-09,2026-10-10,progressed
+app-191,job-14,Solutions Engineer,Engineering,October,Technical / functional interview,2026-10-10,2026-10-20,progressed
+app-191,job-14,Solutions Engineer,Engineering,October,Offer,2026-10-20,2026-10-23,rejected
+app-192,job-15,Talent Acquisition Partner,Corporate,October,Application review,2026-10-03,2026-10-07,progressed
+app-192,job-15,Talent Acquisition Partner,Corporate,October,Recruiter screen,2026-10-07,2026-10-08,rejected
+app-193,job-16,Sales Development Representative,Commercial,October,Application review,2026-10-01,2026-10-02,progressed
+app-193,job-16,Sales Development Representative,Commercial,October,Recruiter screen,2026-10-02,2026-10-04,progressed
+app-193,job-16,Sales Development Representative,Commercial,October,Hiring manager interview,2026-10-04,2026-10-07,progressed
+app-193,job-16,Sales Development Representative,Commercial,October,Technical / functional interview,2026-10-07,,active
+app-194,job-17,Engineering Manager,Engineering,October,Application review,2026-10-02,2026-10-04,rejected
+app-195,job-18,People Partner,Corporate,October,Application review,2026-10-03,2026-10-06,progressed
+app-195,job-18,People Partner,Corporate,October,Recruiter screen,2026-10-06,2026-10-10,progressed
+app-195,job-18,People Partner,Corporate,October,Hiring manager interview,2026-10-10,2026-10-11,rejected
+app-196,job-19,Implementation Consultant,Commercial,October,Application review,2026-10-01,2026-10-05,progressed
+app-196,job-19,Implementation Consultant,Commercial,October,Recruiter screen,2026-10-05,2026-10-06,progressed
+app-196,job-19,Implementation Consultant,Commercial,October,Hiring manager interview,2026-10-06,2026-10-08,progressed
+app-196,job-19,Implementation Consultant,Commercial,October,Technical / functional interview,2026-10-08,2026-10-14,progressed
+app-196,job-19,Implementation Consultant,Commercial,October,Offer,,2026-10-18,hired
+app-197,job-20,Revenue Operations Manager,Commercial,October,Application review,2026-10-02,2026-10-03,progressed
+app-197,job-20,Revenue Operations Manager,Commercial,October,Recruiter screen,,,active
+app-198,job-05,Senior Product Designer,Corporate,October,Application review,2026-10-03,2026-10-05,progressed
+app-198,job-05,Senior Product Designer,Corporate,October,Recruiter screen,2026-10-05,2026-10-08,progressed
+app-198,job-05,Senior Product Designer,Corporate,October,Hiring manager interview,2026-10-08,2026-10-12,progressed
+app-198,job-05,Senior Product Designer,Corporate,October,Technical / functional interview,2026-10-12,2026-10-16,rejected
+app-199,job-06,Platform Engineer,Engineering,October,Application review,2026-10-01,2026-10-04,rejected
+app-200,job-07,Customer Success Manager,Commercial,October,Application review,2026-10-02,2026-10-06,progressed
+app-200,job-07,Customer Success Manager,Commercial,October,Recruiter screen,2026-10-06,2026-10-07,progressed
+app-200,job-07,Customer Success Manager,Commercial,October,Hiring manager interview,2026-10-07,2026-10-09,rejected
+app-201,job-08,Recruiting Coordinator,Corporate,October,Application review,2026-10-03,,active
+app-202,job-09,Data Analyst,Corporate,October,Application review,2026-10-01,2026-10-03,progressed
+app-202,job-09,Data Analyst,Corporate,October,Recruiter screen,2026-10-03,2026-10-06,progressed
+app-202,job-09,Data Analyst,Corporate,October,Hiring manager interview,2026-10-06,2026-10-10,rejected
+app-203,job-10,Product Manager,Corporate,October,Application review,2026-10-02,2026-10-05,progressed
+app-203,job-10,Product Manager,Corporate,October,Recruiter screen,2026-10-05,2026-10-09,progressed
+app-203,job-10,Product Manager,Corporate,October,Hiring manager interview,,2026-10-10,progressed
+app-203,job-10,Product Manager,Corporate,October,Technical / functional interview,2026-10-10,2026-10-15,progressed
+app-203,job-10,Product Manager,Corporate,October,Offer,2026-10-15,2026-10-18,rejected
+app-204,job-11,Finance Business Partner,Corporate,October,Application review,2026-10-03,2026-10-07,progressed
+app-204,job-11,Finance Business Partner,Corporate,October,Recruiter screen,2026-10-07,2026-10-08,withdrawn
+app-205,job-12,Security Engineer,Engineering,October,Application review,2026-10-01,2026-10-02,progressed
+app-205,job-12,Security Engineer,Engineering,October,Recruiter screen,2026-10-02,2026-10-04,progressed
+app-205,job-12,Security Engineer,Engineering,October,Hiring manager interview,2026-10-04,2026-10-07,progressed
+app-205,job-12,Security Engineer,Engineering,October,Technical / functional interview,2026-10-07,,active
+app-206,job-13,Growth Marketing Manager,Corporate,October,Application review,2026-10-02,2026-10-04,rejected
+app-207,job-14,Solutions Engineer,Engineering,October,Application review,2026-10-03,2026-10-06,progressed
+app-207,job-14,Solutions Engineer,Engineering,October,Recruiter screen,2026-10-06,2026-10-10,progressed
+app-207,job-14,Solutions Engineer,Engineering,October,Hiring manager interview,2026-10-10,2026-10-11,rejected
+app-208,job-15,Talent Acquisition Partner,Corporate,October,Application review,2026-10-01,2026-10-05,progressed
+app-208,job-15,Talent Acquisition Partner,Corporate,October,Recruiter screen,2026-10-05,2026-10-06,progressed
+app-208,job-15,Talent Acquisition Partner,Corporate,October,Hiring manager interview,2026-10-06,2026-10-08,progressed
+app-208,job-15,Talent Acquisition Partner,Corporate,October,Technical / functional interview,2026-10-08,2026-10-14,progressed
+app-208,job-15,Talent Acquisition Partner,Corporate,October,Offer,2026-10-14,2026-10-18,hired
+app-209,job-16,Sales Development Representative,Commercial,October,Application review,2026-10-02,2026-10-03,progressed
+app-209,job-16,Sales Development Representative,Commercial,October,Recruiter screen,2026-10-03,,active
+app-210,job-17,Engineering Manager,Engineering,October,Application review,,2026-10-05,progressed
+app-210,job-17,Engineering Manager,Engineering,October,Recruiter screen,2026-10-05,2026-10-08,progressed
+app-210,job-17,Engineering Manager,Engineering,October,Hiring manager interview,2026-10-08,2026-10-12,progressed
+app-210,job-17,Engineering Manager,Engineering,October,Technical / functional interview,2026-10-12,2026-10-26,rejected
+app-211,job-18,People Partner,Corporate,October,Application review,2026-10-01,2026-10-04,withdrawn
+app-212,job-19,Implementation Consultant,Commercial,October,Application review,2026-10-02,2026-10-06,progressed
+app-212,job-19,Implementation Consultant,Commercial,October,Recruiter screen,2026-10-06,2026-10-07,progressed
+app-212,job-19,Implementation Consultant,Commercial,October,Hiring manager interview,2026-10-07,2026-10-09,rejected
+app-213,job-20,Revenue Operations Manager,Commercial,October,Application review,2026-10-03,2026-10-04,progressed
+app-213,job-20,Revenue Operations Manager,Commercial,October,Recruiter screen,2026-10-04,2026-10-06,progressed
+app-213,job-20,Revenue Operations Manager,Commercial,October,Hiring manager interview,2026-10-06,2026-10-09,progressed
+app-213,job-20,Revenue Operations Manager,Commercial,October,Technical / functional interview,2026-10-09,2026-10-12,progressed
+app-213,job-20,Revenue Operations Manager,Commercial,October,Offer,2026-10-12,,active
+app-214,job-05,Senior Product Designer,Corporate,October,Application review,2026-10-01,2026-10-03,progressed
+app-214,job-05,Senior Product Designer,Corporate,October,Recruiter screen,2026-10-03,2026-10-06,rejected
+app-215,job-06,Platform Engineer,Engineering,October,Application review,2026-10-02,2026-10-05,progressed
+app-215,job-06,Platform Engineer,Engineering,October,Recruiter screen,2026-10-05,2026-10-09,progressed
+app-215,job-06,Platform Engineer,Engineering,October,Hiring manager interview,2026-10-09,2026-10-10,progressed
+app-215,job-06,Platform Engineer,Engineering,October,Technical / functional interview,2026-10-10,2026-10-24,rejected
+app-216,job-07,Customer Success Manager,Commercial,October,Application review,2026-10-03,2026-10-07,rejected
+app-217,job-08,Recruiting Coordinator,Corporate,October,Application review,2026-10-01,2026-10-02,progressed
+app-217,job-08,Recruiting Coordinator,Corporate,October,Recruiter screen,2026-10-02,2026-10-04,progressed
+app-217,job-08,Recruiting Coordinator,Corporate,October,Hiring manager interview,2026-10-04,,active
+app-218,job-09,Data Analyst,Corporate,October,Application review,2026-10-02,2026-10-04,progressed
+app-218,job-09,Data Analyst,Corporate,October,Recruiter screen,2026-10-04,2026-10-07,progressed
+app-218,job-09,Data Analyst,Corporate,October,Hiring manager interview,2026-10-07,2026-10-11,progressed
+app-218,job-09,Data Analyst,Corporate,October,Technical / functional interview,2026-10-11,2026-10-15,progressed
+app-218,job-09,Data Analyst,Corporate,October,Offer,2026-10-15,2026-10-17,withdrawn
+app-219,job-10,Product Manager,Corporate,October,Application review,2026-10-03,2026-10-06,progressed
+app-219,job-10,Product Manager,Corporate,October,Recruiter screen,2026-10-06,2026-10-10,rejected
+app-220,job-11,Finance Business Partner,Corporate,October,Application review,2026-10-01,2026-10-05,progressed
+app-220,job-11,Finance Business Partner,Corporate,October,Recruiter screen,2026-10-05,2026-10-06,progressed
+app-220,job-11,Finance Business Partner,Corporate,October,Hiring manager interview,2026-10-06,2026-10-08,progressed
+app-220,job-11,Finance Business Partner,Corporate,October,Technical / functional interview,2026-10-08,2026-10-14,rejected
+app-221,job-12,Security Engineer,Engineering,October,Application review,2026-10-02,2026-10-03,progressed
+app-221,job-12,Security Engineer,Engineering,October,Recruiter screen,2026-10-03,,active
+app-222,job-13,Growth Marketing Manager,Corporate,October,Application review,2026-10-03,2026-10-05,progressed
+app-222,job-13,Growth Marketing Manager,Corporate,October,Recruiter screen,2026-10-05,2026-10-08,progressed
+app-222,job-13,Growth Marketing Manager,Corporate,October,Hiring manager interview,,2026-10-12,progressed
+app-222,job-13,Growth Marketing Manager,Corporate,October,Technical / functional interview,2026-10-12,2026-10-16,rejected
+app-223,job-14,Solutions Engineer,Engineering,October,Application review,2026-10-01,2026-10-04,rejected
+app-224,job-15,Talent Acquisition Partner,Corporate,October,Application review,2026-10-02,2026-10-06,progressed
+app-224,job-15,Talent Acquisition Partner,Corporate,October,Recruiter screen,2026-10-06,2026-10-07,progressed
+app-224,job-15,Talent Acquisition Partner,Corporate,October,Hiring manager interview,2026-10-07,2026-10-09,rejected
+app-225,job-16,Sales Development Representative,Commercial,October,Application review,2026-10-03,2026-10-04,progressed
+app-225,job-16,Sales Development Representative,Commercial,October,Recruiter screen,2026-10-04,2026-10-06,progressed
+app-225,job-16,Sales Development Representative,Commercial,October,Hiring manager interview,2026-10-06,2026-10-09,progressed
+app-225,job-16,Sales Development Representative,Commercial,October,Technical / functional interview,2026-10-09,2026-10-12,progressed
+app-225,job-16,Sales Development Representative,Commercial,October,Offer,2026-10-12,,active
+app-226,job-17,Engineering Manager,Engineering,October,Application review,2026-10-01,2026-10-03,progressed
+app-226,job-17,Engineering Manager,Engineering,October,Recruiter screen,2026-10-03,2026-10-06,rejected
+app-227,job-18,People Partner,Corporate,October,Application review,2026-10-02,2026-10-05,progressed
+app-227,job-18,People Partner,Corporate,October,Recruiter screen,2026-10-05,2026-10-09,progressed
+app-227,job-18,People Partner,Corporate,October,Hiring manager interview,2026-10-09,2026-10-10,progressed
+app-227,job-18,People Partner,Corporate,October,Technical / functional interview,2026-10-10,2026-10-15,rejected
+app-228,job-19,Implementation Consultant,Commercial,October,Application review,2026-10-03,2026-10-07,rejected
+app-229,job-20,Revenue Operations Manager,Commercial,October,Application review,,2026-10-02,progressed
+app-229,job-20,Revenue Operations Manager,Commercial,October,Recruiter screen,2026-10-02,2026-10-04,progressed
+app-229,job-20,Revenue Operations Manager,Commercial,October,Hiring manager interview,2026-10-04,,active
+app-230,job-05,Senior Product Designer,Corporate,October,Application review,2026-10-02,2026-10-04,progressed
+app-230,job-05,Senior Product Designer,Corporate,October,Recruiter screen,2026-10-04,2026-10-07,progressed
+app-230,job-05,Senior Product Designer,Corporate,October,Hiring manager interview,2026-10-07,2026-10-11,progressed
+app-230,job-05,Senior Product Designer,Corporate,October,Technical / functional interview,2026-10-11,2026-10-15,progressed
+app-230,job-05,Senior Product Designer,Corporate,October,Offer,2026-10-15,2026-10-17,rejected
+app-231,job-06,Platform Engineer,Engineering,October,Application review,2026-10-03,2026-10-06,progressed
+app-231,job-06,Platform Engineer,Engineering,October,Recruiter screen,2026-10-06,2026-10-10,rejected
+app-232,job-07,Customer Success Manager,Commercial,October,Application review,2026-10-01,2026-10-05,progressed
+app-232,job-07,Customer Success Manager,Commercial,October,Recruiter screen,2026-10-05,2026-10-06,progressed
+app-232,job-07,Customer Success Manager,Commercial,October,Hiring manager interview,2026-10-06,2026-10-08,progressed
+app-232,job-07,Customer Success Manager,Commercial,October,Technical / functional interview,2026-10-08,2026-10-14,withdrawn
+app-233,job-08,Recruiting Coordinator,Corporate,October,Application review,2026-10-02,,active
+app-234,job-09,Data Analyst,Corporate,October,Application review,2026-10-03,2026-10-05,progressed
+app-234,job-09,Data Analyst,Corporate,October,Recruiter screen,2026-10-05,2026-10-08,progressed
+app-234,job-09,Data Analyst,Corporate,October,Hiring manager interview,2026-10-08,2026-10-12,rejected
+app-235,job-10,Product Manager,Corporate,October,Application review,2026-10-01,2026-10-04,progressed
+app-235,job-10,Product Manager,Corporate,October,Recruiter screen,,2026-10-08,progressed
+app-235,job-10,Product Manager,Corporate,October,Hiring manager interview,2026-10-08,2026-10-09,progressed
+app-235,job-10,Product Manager,Corporate,October,Technical / functional interview,2026-10-09,2026-10-14,progressed
+app-235,job-10,Product Manager,Corporate,October,Offer,2026-10-14,2026-10-17,hired
+app-236,job-11,Finance Business Partner,Corporate,October,Application review,2026-10-02,2026-10-06,progressed
+app-236,job-11,Finance Business Partner,Corporate,October,Recruiter screen,2026-10-06,2026-10-07,rejected
+app-237,job-12,Security Engineer,Engineering,October,Application review,2026-10-03,2026-10-04,progressed
+app-237,job-12,Security Engineer,Engineering,October,Recruiter screen,2026-10-04,2026-10-06,progressed
+app-237,job-12,Security Engineer,Engineering,October,Hiring manager interview,2026-10-06,2026-10-09,progressed
+app-237,job-12,Security Engineer,Engineering,October,Technical / functional interview,2026-10-09,,active
+app-238,job-13,Growth Marketing Manager,Corporate,October,Application review,2026-10-01,2026-10-03,rejected
+app-239,job-14,Solutions Engineer,Engineering,October,Application review,2026-10-02,2026-10-05,progressed
+app-239,job-14,Solutions Engineer,Engineering,October,Recruiter screen,2026-10-05,2026-10-09,progressed
+app-239,job-14,Solutions Engineer,Engineering,October,Hiring manager interview,2026-10-09,2026-10-10,withdrawn
+app-240,job-15,Talent Acquisition Partner,Corporate,October,Application review,2026-10-03,2026-10-07,progressed
+app-240,job-15,Talent Acquisition Partner,Corporate,October,Recruiter screen,2026-10-07,2026-10-08,progressed
+app-240,job-15,Talent Acquisition Partner,Corporate,October,Hiring manager interview,2026-10-08,2026-10-10,progressed
+app-240,job-15,Talent Acquisition Partner,Corporate,October,Technical / functional interview,2026-10-10,2026-10-16,progressed
+app-240,job-15,Talent Acquisition Partner,Corporate,October,Offer,2026-10-16,2026-10-20,rejected

@@ -1,6 +1,6 @@
 const allowedOrigin='https://ashby-recruiting-operations-health-check.holisticrecruiterclub.chatgpt.site';
-const views=new Set(['home','repair-queue','checks','ai-brief','overview','diagnosis','roadmap','report']);
-const actions=new Set(['load-demo','upload-csv','run-audit','export-queue','download-brief','copy-brief','print-report','clear-data','template-download']);
+const views=new Set(['home','repair-queue','checks','ai-brief','overview','diagnosis','roadmap','report','case-discovery','case-funnel','case-teaching','case-scope','case-report']);
+const actions=new Set(['load-demo','upload-csv','run-audit','export-queue','download-brief','copy-brief','print-report','clear-data','template-download','case-export-metrics','case-export-guide','case-export-report','case-print-report','case-quiz','case-filter']);
 const uuid=/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 Deno.serve(async(req:Request)=>{
  const cors={'Access-Control-Allow-Origin':allowedOrigin,'Access-Control-Allow-Headers':'authorization,apikey,content-type','Access-Control-Allow-Methods':'POST, OPTIONS','Vary':'Origin'};

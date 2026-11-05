@@ -25,3 +25,12 @@
 - Analytics consent v2 requires a fresh choice; no application IP processing or storage. Existing IP network column removed. Collector v2 live checks: consent=false rejected (400), consent=true accepted (200); 10-second test event read back as v2 and marked test-only.
 - Database read-back confirms analytics RLS on, anonymous SELECT/INSERT denied, IP column absent and hourly 30-day retention job active. Supabase security advisors returned no findings.
 - Browser preview confirmed Supabase demo loads directly with 240 applications and 9/9 checks after correcting CSP connection allowlist. Import/export minimisation is covered by automated integration tests; production legal compliance has not been certified.
+
+## V2 customer consulting case — 5 November 2026
+
+- Added a five-step case: discovery, funnel investigation, customer teaching, scoped engagement/CSM handover and a customer-ready report.
+- 720 reproducible synthetic stage events reference the existing 240 demo Application IDs. They are explicitly a separate educational extension, not reconstructed ATS history or achieved customer results.
+- 34 automated tests pass. Coverage includes cohort/role/stage intersections, completed versus active denominators, missing and future timestamps, sample limits, filtered CSV consistency, proposed scope propagation, escaped report text, invalid-state export blocking, keyboard navigation, teaching feedback, print invocation and privacy.
+- Browser preview confirmed Engineering (11-day completed technical-stage median, n=22), Commercial (4-day median, n=19), the teaching response, and propagation of edited objectives and filters into the report. Browser metrics download completed; a subsequent multi-download QA sequence timed out. Guide/report generation and download handlers passed automated integration checks; the browser PDF save dialogue was not exercised.
+- Consent-only case analytics accepts allowlisted section/action events and rejects declined-consent payloads. A case-funnel / case-export-metrics event was read back in Supabase and marked test-only. No filter values, scope text, candidate data or IP fields are included.
+- The existing 9-check audit and pseudonymous import safeguards continue to pass their regression checks. No genuine Ashby configuration or real customer outcomes are claimed.

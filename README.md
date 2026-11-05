@@ -1,3 +1,16 @@
+## V2: the customer conversation
+
+A five-step fictional consulting case now leads the experience: discovery, funnel investigation, teaching, scoped engagement/CSM handover, and a customer report. It supplements the existing CSV audit.
+
+- Reuses the existing 240 synthetic Application IDs and adds 720 explicitly fictional stage-history events. Rebuild with `python3 scripts/build-case.py`; history is bundled as JSON and a downloadable CSV, separately from the Supabase snapshot.
+- Filters by team, role, entry cohort and stage. Completed-stage medians, active waiting ages, resolved-exit progression and excluded records use explicit denominators. No candidate scoring, time-to-fill or Quality of Hire claims.
+- Editable proposed scope feeds a printable report and Markdown export. Filtered metrics and a customer teaching guide can also be downloaded.
+- Keyboard-accessible case tabs, a learning exercise, source evidence, proposed acceptance criteria, exclusions and escalation boundaries.
+- Imported candidate data never enters the fictional case, its reports or analytics. Optional analytics allowlists case sections and action names, never filter values or scope text.
+- Native Ashby configuration is explicitly left for genuine product validation in an authorised instance; the demo makes no claim of product access or real customer outcomes.
+
+See [three-minute walkthrough](docs/walkthrough-v2.md). Run `npm test` for calculation, integration, export and privacy checks.
+
 # Recruiting Operations Health Check — consultant portfolio demo
 
 **Built by John Hazelton.** Independent portfolio demonstration using synthetic data. Not affiliated with or endorsed by Ashby.
