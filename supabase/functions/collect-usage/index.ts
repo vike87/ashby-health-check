@@ -1,11 +1,12 @@
-const allowedOrigin='https://ashby-recruiting-operations-health-check.holisticrecruiterclub.chatgpt.site';
+const allowedOrigins=new Set(['https://ashby-recruiting-operations-health-check.holisticrecruiterclub.chatgpt.site','https://ashby-health-check.netlify.app']);
 const views=new Set(['home','repair-queue','checks','ai-brief','overview','diagnosis','roadmap','report','case-discovery','case-funnel','case-teaching','case-scope','case-report']);
 const actions=new Set(['load-demo','upload-csv','run-audit','export-queue','download-brief','copy-brief','print-report','clear-data','template-download','case-export-metrics','case-export-guide','case-export-report','case-print-report','case-quiz','case-filter']);
 const uuid=/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 Deno.serve(async(req:Request)=>{
- const cors={'Access-Control-Allow-Origin':allowedOrigin,'Access-Control-Allow-Headers':'authorization,apikey,content-type','Access-Control-Allow-Methods':'POST, OPTIONS','Vary':'Origin'};
+ const origin=req.headers.get('origin')||'';
+ const cors={'Access-Control-Allow-Origin':allowedOrigins.has(origin)?origin:'null','Access-Control-Allow-Headers':'authorization,apikey,content-type','Access-Control-Allow-Methods':'POST, OPTIONS','Vary':'Origin'};
  const reply=(status:number,body:string)=>new Response(body,{status,headers:{...cors,'Content-Type':'application/json','Cache-Control':'no-store'}});
- if(req.headers.get('origin')!==allowedOrigin)return reply(403,'{"error":"origin"}');
+ if(!allowedOrigins.has(origin))return reply(403,'{"error":"origin"}');
  if(req.method==='OPTIONS')return new Response(null,{status:204,headers:cors});
  if(req.method!=='POST')return reply(405,'{"error":"method"}');
  if(Number(req.headers.get('content-length')||0)>12000)return reply(413,'{"error":"size"}');
