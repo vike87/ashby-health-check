@@ -1,38 +1,38 @@
-Application ID,Candidate name,Candidate email,Job ID,Job title,Application status,Current interview stage,Stage entered at,Last activity at,Rejection reason,Next interview at,Job status
-app-001,Demo Candidate 01,candidate01@example.com,job-01,Research Engineer,Active,Technical interview,2026-10-24,2026-10-28,,,Open
-app-002,Demo Candidate 02,candidate02@example.com,job-02,Enterprise Account Executive,Active,Recruiter screen,2026-10-24,2026-10-28,,,Open
-app-003,Demo Candidate 03,candidate03@example.com,job-03,Developer Relations,Active,Recruiter screen,2026-10-24,2026-10-28,,,Open
-app-004,Demo Candidate 04,candidate04@example.com,job-04,People Operations,Active,Recruiter screen,2026-10-24,2026-09-15,,,Open
-app-005,Demo Candidate 05,candidate05@example.com,job-01,Research Engineer,Active,Technical interview,2026-10-01,2026-10-28,,,Open
-app-006,Demo Candidate 06,candidate06@example.com,job-02,Enterprise Account Executive,Active,Recruiter screen,2026-10-24,2026-10-28,,,Open
-app-007,Demo Candidate 07,candidate07@example.com,job-03,Developer Relations,Rejected,Archived,2026-10-24,2026-10-28,,,Open
-app-008,Demo Candidate 08,candidate08@example.com,job-04,People Operations,Active,Recruiter screen,2026-10-24,2026-09-15,,,Open
-app-009,Demo Candidate 09,candidate09@example.com,job-01,Research Engineer,Hired,Hired,2026-10-24,2026-10-28,,,Open
-app-010,Demo Candidate 10,candidate10@example.com,job-02,Enterprise Account Executive,Active,Recruiter screen,2026-10-01,2026-10-28,,,Open
-app-011,Demo Candidate 11,candidate11@example.com,job-03,Developer Relations,Rejected,Archived,2026-10-24,2026-10-28,,2026-11-04,Open
-app-012,Demo Candidate 12,candidate12@example.com,job-04,People Operations,Active,Recruiter screen,2026-10-24,2026-09-15,,,Open
-app-013,Demo Candidate 13,candidate13@example.com,job-01,Research Engineer,Active,Technical interview,2026-10-24,2026-10-28,,,Open
-app-014,Demo Candidate 14,candidate14@example.com,job-02,Enterprise Account Executive,Rejected,Archived,2026-10-24,2026-10-28,,,Open
-app-015,Demo Candidate 15,candidate15@example.com,job-03,Developer Relations,Active,Recruiter screen,2026-10-01,2026-10-28,,,Open
-app-016,Demo Candidate 16,candidate16@example.com,job-04,People Operations,Active,Recruiter screen,2026-10-24,2026-09-15,,,Open
-app-017,Demo Candidate 17,candidate17@example.com,job-01,Research Engineer,Active,Technical interview,,2026-10-28,,,Open
-app-018,Demo Candidate 18,candidate18@example.com,job-02,Enterprise Account Executive,Hired,Hired,2026-10-24,2026-10-28,,,Open
-app-019,Demo Candidate 19,candidate19@example.com,job-03,Developer Relations,Active,Recruiter screen,29/10/2026,2026-10-28,,,Open
-app-020,Demo Candidate 20,candidate20@example.com,job-04,People Operations,Active,Recruiter screen,2026-10-01,2026-09-15,,,Open
-app-021,Demo Candidate 21,candidate21@example.com,job-01,Research Engineer,Rejected,Archived,2026-10-24,2026-10-28,Role requirements,,Open
-app-022,Demo Candidate 22,candidate22@example.com,job-02,Enterprise Account Executive,Rejected,Archived,2026-10-24,2026-10-28,,2026-11-04,Open
-app-023,Demo Candidate 23,candidate23@example.com,job-03,Developer Relations,Active,Recruiter screen,2026-10-24,2026-10-28,,,Open
-app-024,Demo Candidate 24,candidate24@example.com,job-04,People Operations,Active,Recruiter screen,2026-10-24,2026-09-15,,,Open
-app-025,Demo Candidate 25,candidate25@example.com,job-01,Research Engineer,Active,Technical interview,2026-10-01,2026-10-28,,,Open
-app-026,Demo Candidate 26,candidate26@example.com,job-02,Enterprise Account Executive,Active,Recruiter screen,2026-10-24,2026-10-28,,,Open
-app-027,Demo Candidate 27,candidate27@example.com,job-03,Developer Relations,Hired,Hired,2026-10-24,2026-10-28,,,Open
-app-028,Demo Candidate 28,candidate28@example.com,job-04,People Operations,Rejected,Archived,2026-10-24,2026-09-15,,,Open
-app-029,Demo Candidate 29,candidate29@example.com,job-01,Research Engineer,Active,Technical interview,2026-10-24,2026-10-28,,,Open
-app-030,Demo Candidate 30,candidate30@example.com,job-02,Enterprise Account Executive,Active,Recruiter screen,2026-10-01,2026-10-28,,,Open
-app-031,Demo Candidate 31,candidate31@example.com,job-03,Developer Relations,Active,Recruiter screen,2026-10-24,2026-10-28,,,Open
-app-032,Demo Candidate 32,candidate32@example.com,job-04,People Operations,Active,Recruiter screen,2026-10-24,2026-09-15,,,Open
-app-033,Demo Candidate 33,candidate33@example.com,job-01,Research Engineer,Rejected,Archived,2026-10-24,2026-10-28,,2026-11-04,Open
-app-034,Demo Candidate 34,candidate34@example.com,job-02,Enterprise Account Executive,Active,Recruiter screen,2026-10-24,2026-10-28,,,Open
-app-035,Demo Candidate 35,candidate35@example.com,job-03,Developer Relations,Rejected,Archived,2026-10-01,2026-10-28,,,Open
-app-036,Demo Candidate 36,candidate36@example.com,job-04,People Operations,Hired,Hired,2026-10-24,2026-09-15,,,Open
-app-037,Demo Candidate 01,candidate01@example.com,job-01,Research Engineer,Active,Technical interview,2026-10-04,2026-10-28,,,Open
+Application ID,Candidate name,Candidate email,Job ID,Job title,Application status,Current interview stage,Stage entered at,Last activity at,Rejection reason,Next interview at,Job status,Candidate source,Interview completed at,Feedback submitted at,Recruiter,Hiring manager
+app-001,Demo Candidate 01,candidate01@example.com,job-01,Research Engineer,Active,Technical interview,2026-10-24,2026-10-28,,,Open,Employee referral,,,Morgan Lee,Sam Patel
+app-002,Demo Candidate 02,candidate02@example.com,job-02,Enterprise Account Executive,Active,Recruiter screen,2026-10-24,2026-10-28,,,Open,Careers site,,,Taylor Brooks,Jordan Ellis
+app-003,Demo Candidate 03,candidate03@example.com,job-03,Developer Relations,Active,Recruiter screen,2026-10-24,2026-10-28,,,Open,Agency,2026-10-11,2026-10-12,Alex Rivera,Casey Chen
+app-004,Demo Candidate 04,candidate04@example.com,job-04,People Operations,Active,Recruiter screen,2026-10-24,2026-09-15,,,Open,Event,,,Morgan Lee,Sam Patel
+app-005,Demo Candidate 05,candidate05@example.com,job-01,Research Engineer,Active,Technical interview,2026-10-01,2026-10-28,,,Open,Outbound sourcing,2026-10-13,2026-10-14,Taylor Brooks,Jordan Ellis
+app-006,Demo Candidate 06,candidate06@example.com,job-02,Enterprise Account Executive,Active,Recruiter screen,2026-10-24,2026-10-28,,,Open,LinkedIn,2026-10-14,2026-10-18,Alex Rivera,Casey Chen
+app-007,Demo Candidate 07,candidate07@example.com,job-03,Developer Relations,Rejected,Archived,2026-10-24,2026-10-28,,,Open,,,,Morgan Lee,Sam Patel
+app-008,Demo Candidate 08,candidate08@example.com,job-04,People Operations,Active,Recruiter screen,2026-10-24,2026-09-15,,,Open,Careers site,,,Taylor Brooks,Jordan Ellis
+app-009,Demo Candidate 09,candidate09@example.com,job-01,Research Engineer,Hired,Hired,2026-10-24,2026-10-28,,,Open,Agency,2026-10-17,2026-10-18,Alex Rivera,Casey Chen
+app-010,Demo Candidate 10,candidate10@example.com,job-02,Enterprise Account Executive,Active,Recruiter screen,2026-10-01,2026-10-28,,,Open,Event,2026-10-18,2026-10-19,Morgan Lee,Sam Patel
+app-011,Demo Candidate 11,candidate11@example.com,job-03,Developer Relations,Rejected,Archived,2026-10-24,2026-10-28,,2026-11-04,Open,,,,Taylor Brooks,Jordan Ellis
+app-012,Demo Candidate 12,candidate12@example.com,job-04,People Operations,Active,Recruiter screen,2026-10-24,2026-09-15,,,Open,LinkedIn,2026-10-20,,Alex Rivera,Casey Chen
+app-013,Demo Candidate 13,candidate13@example.com,job-01,Research Engineer,Active,Technical interview,2026-10-24,2026-10-28,,,Open,Employee referral,,,Morgan Lee,Sam Patel
+app-014,Demo Candidate 14,candidate14@example.com,job-02,Enterprise Account Executive,Rejected,Archived,2026-10-24,2026-10-28,,,Open,,,,Taylor Brooks,Jordan Ellis
+app-015,Demo Candidate 15,candidate15@example.com,job-03,Developer Relations,Active,Recruiter screen,2026-10-01,2026-10-28,,,Open,Agency,2026-10-08,2026-10-09,Alex Rivera,Casey Chen
+app-016,Demo Candidate 16,candidate16@example.com,job-04,People Operations,Active,Recruiter screen,2026-10-24,2026-09-15,,,Open,Event,,,Morgan Lee,Sam Patel
+app-017,Demo Candidate 17,candidate17@example.com,job-01,Research Engineer,Active,Technical interview,,2026-10-28,,,Open,Outbound sourcing,,,Taylor Brooks,Jordan Ellis
+app-018,Demo Candidate 18,candidate18@example.com,job-02,Enterprise Account Executive,Hired,Hired,2026-10-24,2026-10-28,,,Open,LinkedIn,2026-10-11,2026-10-15,Alex Rivera,Casey Chen
+app-019,Demo Candidate 19,candidate19@example.com,job-03,Developer Relations,Active,Recruiter screen,29/10/2026,2026-10-28,,,Open,Employee referral,,,Morgan Lee,Sam Patel
+app-020,Demo Candidate 20,candidate20@example.com,job-04,People Operations,Active,Recruiter screen,2026-10-01,2026-09-15,,,Open,Careers site,2026-10-13,,Taylor Brooks,Jordan Ellis
+app-021,Demo Candidate 21,candidate21@example.com,job-01,Research Engineer,Rejected,Archived,2026-10-24,2026-10-28,Role requirements,,Open,,2026-10-14,2026-10-15,Alex Rivera,Casey Chen
+app-022,Demo Candidate 22,candidate22@example.com,job-02,Enterprise Account Executive,Rejected,Archived,2026-10-24,2026-10-28,,2026-11-04,Open,,,,Morgan Lee,Sam Patel
+app-023,Demo Candidate 23,candidate23@example.com,job-03,Developer Relations,Active,Recruiter screen,2026-10-24,2026-10-28,,,Open,Outbound sourcing,,,Taylor Brooks,Jordan Ellis
+app-024,Demo Candidate 24,candidate24@example.com,job-04,People Operations,Active,Recruiter screen,2026-10-24,2026-09-15,,,Open,LinkedIn,2026-10-17,,Alex Rivera,Casey Chen
+app-025,Demo Candidate 25,candidate25@example.com,job-01,Research Engineer,Active,Technical interview,2026-10-01,2026-10-28,,,Open,Employee referral,2026-10-18,2026-10-19,Morgan Lee,Sam Patel
+app-026,Demo Candidate 26,candidate26@example.com,job-02,Enterprise Account Executive,Active,Recruiter screen,2026-10-24,2026-10-28,,,Open,Careers site,,,Taylor Brooks,Jordan Ellis
+app-027,Demo Candidate 27,candidate27@example.com,job-03,Developer Relations,Hired,Hired,2026-10-24,2026-10-28,,,Open,Agency,2026-10-20,2026-10-21,Alex Rivera,Casey Chen
+app-028,Demo Candidate 28,candidate28@example.com,job-04,People Operations,Rejected,Archived,2026-10-24,2026-09-15,,,Open,,,,Morgan Lee,Sam Patel
+app-029,Demo Candidate 29,candidate29@example.com,job-01,Research Engineer,Active,Technical interview,2026-10-24,2026-10-28,,,Open,Outbound sourcing,,,Taylor Brooks,Jordan Ellis
+app-030,Demo Candidate 30,candidate30@example.com,job-02,Enterprise Account Executive,Active,Recruiter screen,2026-10-01,2026-10-28,,,Open,LinkedIn,2026-10-08,2026-10-12,Alex Rivera,Casey Chen
+app-031,Demo Candidate 31,candidate31@example.com,job-03,Developer Relations,Active,Recruiter screen,2026-10-24,2026-10-28,,,Open,Employee referral,,,Morgan Lee,Sam Patel
+app-032,Demo Candidate 32,candidate32@example.com,job-04,People Operations,Active,Recruiter screen,2026-10-24,2026-09-15,,,Open,Careers site,,,Taylor Brooks,Jordan Ellis
+app-033,Demo Candidate 33,candidate33@example.com,job-01,Research Engineer,Rejected,Archived,2026-10-24,2026-10-28,,2026-11-04,Open,,2026-10-11,2026-10-12,Alex Rivera,Casey Chen
+app-034,Demo Candidate 34,candidate34@example.com,job-02,Enterprise Account Executive,Active,Recruiter screen,2026-10-24,2026-10-28,,,Open,Event,,,Morgan Lee,Sam Patel
+app-035,Demo Candidate 35,candidate35@example.com,job-03,Developer Relations,Rejected,Archived,2026-10-01,2026-10-28,,,Open,,2026-10-13,2026-10-14,Taylor Brooks,Jordan Ellis
+app-036,Demo Candidate 36,candidate36@example.com,job-04,People Operations,Hired,Hired,2026-10-24,2026-09-15,,,Open,LinkedIn,2026-10-14,,Alex Rivera,Casey Chen
+app-037,Demo Candidate 01,candidate01@example.com,job-01,Research Engineer,Active,Technical interview,2026-10-04,2026-10-28,,,Open,Employee referral,,,Morgan Lee,Sam Patel
