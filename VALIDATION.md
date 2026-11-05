@@ -41,3 +41,9 @@
 - Replaced visitor-facing median/sample notation with typical time and completed-record language. Calculation method remains available in a collapsed explanation; the underlying median and denominators are unchanged.
 - Consent-only analytics now keeps a random session ID across pages in the same browser tab so a consented journey can be followed. The privacy notice reflects tab-session storage. No filter values, report text or imported records are collected.
 - All 34 automated tests pass. Browser preview verified navigation, Engineering case figures, customer report rendering and the 240-application audit demo. PDF saving and the guide/report browser download dialogues were not exercised in this update.
+
+## Report controls and visual actions — 5 November 2026
+
+- On the live Site, the customer report download produced a non-empty Markdown file with the proposed objective and engagement. The print controls invoke the browser print action in code; this cloud browser did not expose a PDF save dialogue or produce a PDF, so actual PDF saving is not certified.
+- Fixed the optional audit page print stylesheet so its introduction is hidden from the report output.
+- Added a filter-responsive stage-time chart to the fictional case. Selecting a stage changes its suggested validation question and owner; date gaps remain a separate action. Stage groups with fewer than five completed records are not charted as comparable times. Browser preview verified the Engineering chart, Commercial filter, and selected Application Review action. All 34 automated tests pass.

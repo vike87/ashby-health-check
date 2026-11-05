@@ -2,6 +2,8 @@
 
 The public site now has four focused pages: an introduction, a guided fictional customer case, a platform-agnostic consulting approach, and an optional data health tool. A hiring manager can follow the short case before inspecting the underlying audit. The stage calculations remain rigorous, while the visitor interface describes typical time and the number of completed records in plain language. Technical details are available on request in the underlying data and documentation.
 
+The case chart shows typical completed stage time, follows the team/role/cohort filters, and lets a visitor select any stage to see a proposed check and owner. It also highlights date-quality work separately. The chart is descriptive: suggested checks are hypotheses to validate with a customer, never inferred causes.
+
 ## V2: the customer conversation
 
 A five-step fictional consulting case leads the walkthrough: discovery, funnel investigation, teaching, scoped engagement/CSM handover, and a customer report. It supplements the existing CSV audit on a separate page.

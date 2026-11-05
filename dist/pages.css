@@ -37,10 +37,26 @@ body{background:var(--cream)}
 .case-data-link{display:inline-block;margin:0;padding:9px 12px}
 .case-data-link a{display:block;margin-top:12px}
 .case-table{min-width:760px}
+.case-chart{background:#fff;border:1px solid var(--line);border-radius:12px;padding:25px;margin:22px 0}
+.case-chart-head{display:flex;align-items:end;justify-content:space-between;gap:25px;margin-bottom:22px}
+.case-chart-head h3{font-size:22px;margin:8px 0 0}
+.case-chart-head p{max-width:360px;font-size:12px;line-height:1.6;color:var(--muted);margin:0}
+.case-chart-row{display:grid;grid-template-columns:210px minmax(80px,1fr) 112px;gap:18px;align-items:center;padding:11px 0;border:0;border-top:1px solid #f0eef8;background:transparent;width:100%;text-align:left;cursor:pointer;font-size:13px}
+.case-chart-row:hover{background:#faf9ff}
+.case-chart-label small{display:block;margin-top:4px}
+.case-chart-track{height:22px;background:#f1eff9;border-radius:4px;overflow:hidden}
+.case-chart-track i{height:100%;display:block;background:#aaa2d9;border-radius:4px}
+.case-chart-row.is-focus{font-weight:700;color:#30269a}
+.case-chart-row.is-focus .case-chart-track i{background:#483fad}
+.case-chart-row b{text-align:right;font-size:13px}
+.case-chart-note{font-size:11px;line-height:1.6;color:var(--muted);margin:16px 0 0}
+.case-comparison{margin-top:18px}
+.case-comparison p{color:var(--muted)}
 .audit-lead{padding:55px 0 35px}
 .audit-lead h1{font-size:clamp(37px,4vw,56px)}
 .site-footer{align-items:center;background:#fff}
 .site-footer .secondary{font-size:11px;padding:8px 11px}
 .site-footer a{align-self:center}
 @media(max-width:900px){.home-hero{grid-template-columns:1fr;padding:55px 0}.home-visual{display:none}.site-header{padding-top:12px;padding-bottom:12px;flex-wrap:wrap}.site-nav{gap:18px}.home-story{grid-template-columns:1fr;gap:0}.home-options{grid-template-columns:1fr}.approach-grid{grid-template-columns:1fr}}
-@media(max-width:600px){.site-nav{gap:13px}.site-nav a{font-size:11px}.home-story{padding:45px 0}.page-hero{padding:50px 0 35px}.site-footer{gap:14px}}
+@media(max-width:600px){.site-nav{gap:13px}.site-nav a{font-size:11px}.home-story{padding:45px 0}.page-hero{padding:50px 0 35px}.site-footer{gap:14px}.case-chart-head{display:block}.case-chart-head p{margin-top:12px}.case-chart-row{grid-template-columns:1fr 80px;gap:8px}.case-chart-label{grid-column:1/-1}.case-chart{padding:18px}}
+@media print{.audit-lead,.page-intro{display:none!important}}

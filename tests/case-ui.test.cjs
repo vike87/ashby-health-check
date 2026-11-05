@@ -8,8 +8,8 @@ async function setup(){
  return {el,tabs,go,blobs,classes,printed:()=>printed};
 }
 test('case loads, filters update evidence, and report scope follows current selection',async()=>{
- const a=await setup();assert.match(a.el('case-analysis').innerHTML,/11.0 days/);assert.match(a.el('case-status').textContent,/Engineering/);
- a.el('case-team').value='Commercial';a.el('case-team').onchange();assert.match(a.el('case-status').textContent,/Commercial/);assert.match(a.el('case-analysis').innerHTML,/4.0 days/);
+ const a=await setup();assert.match(a.el('case-analysis').innerHTML,/11.0 days/);assert.match(a.el('case-analysis').innerHTML,/STAGE TIME AT A GLANCE/);assert.match(a.el('case-analysis').innerHTML,/Check interviewer capacity/);assert.match(a.el('case-status').textContent,/Engineering/);
+ a.el('case-team').value='Commercial';a.el('case-team').onchange();assert.match(a.el('case-status').textContent,/Commercial/);assert.match(a.el('case-analysis').innerHTML,/4.0 days/);assert.match(a.el('case-analysis').innerHTML,/STAGE TIME AT A GLANCE/);
  a.el('case-objective').value='<script>private</script>';a.el('case-objective').oninput();assert.ok(!a.el('case-report-content').innerHTML.includes('<script>'));assert.ok(a.el('case-report-content').innerHTML.includes('&lt;script&gt;'));
  a.el('case-target').value='Agreed metric definition before targets.';a.el('case-target').oninput();a.el('case-report-download').onclick();assert.match(await a.blobs[0].text(),/Commercial/);assert.match(await a.blobs[0].text(),/Agreed metric definition before targets/);
 });
