@@ -36,3 +36,206 @@ app-034,Demo Candidate 34,candidate34@example.com,job-02,Enterprise Account Exec
 app-035,Demo Candidate 35,candidate35@example.com,job-03,Developer Relations,Rejected,Archived,2026-10-01,2026-10-28,,,Open,,2026-10-13,2026-10-14,Taylor Brooks,Jordan Ellis
 app-036,Demo Candidate 36,candidate36@example.com,job-04,People Operations,Hired,Hired,2026-10-24,2026-09-15,,,Open,LinkedIn,2026-10-14,,Alex Rivera,Casey Chen
 app-037,Demo Candidate 01,candidate01@example.com,job-01,Research Engineer,Active,Technical interview,2026-10-04,2026-10-28,,,Open,Employee referral,,,Morgan Lee,Sam Patel
+app-038,Demo Candidate 038,candidate038@example.com,job-05,Senior Product Designer,Withdrawn,Hiring manager interview,2026-10-04,2026-10-28,,,Paused,Agency,,,Alex Rivers,Sam Patel
+app-039,Demo Candidate 039,candidate039@example.com,job-06,Platform Engineer,Archived,Technical interview,2026-09-27,2026-10-27,Role requirements,,Open,,,,Charlie Ellis,Jordan Ellis
+app-040,Demo Candidate 040,candidate040@example.com,job-07,Customer Success Manager,Active,Final interview,2026-09-20,2026-10-26,,,Open,Careers site,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-041,Demo Candidate 041,candidate041@example.com,job-08,Recruiting Coordinator,Active,Offer,30/10/2026,2026-10-25,,,Open,Employee referral,,,Taylor Brooks,Robin Chen
+app-042,Demo Candidate 042,candidate042@example.com,job-09,Data Analyst,Active,Application review,2026-10-24,2026-10-24,,,Open,LinkedIn,,,Alex Rivers,Sam Patel
+app-043,Demo Candidate 043,candidate043@example.com,job-10,Product Manager,Active,Recruiter screen,,2026-10-23,,,Paused,Agency,,,Charlie Ellis,Jordan Ellis
+app-044,Demo Candidate 044,candidate044@example.com,job-11,Finance Business Partner,Active,Hiring manager interview,2026-10-10,2026-10-22,,,Open,Direct sourcing,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-045,Demo Candidate 045,candidate045@example.com,job-12,Security Engineer,Active,Technical interview,2026-10-03,2026-10-21,,,Open,Careers site,,,Taylor Brooks,Robin Chen
+app-046,Demo Candidate 046,candidate046@example.com,job-13,Growth Marketing Manager,Rejected,Final interview,2026-09-26,2026-10-20,Candidate withdrew,,Open,Employee referral,,,Alex Rivers,Sam Patel
+app-047,Demo Candidate 047,candidate047@example.com,job-14,Solutions Engineer,Hired,Offer,2026-09-19,2026-10-19,,2026-11-06,Open,LinkedIn,,,Charlie Ellis,Jordan Ellis
+app-048,Demo Candidate 048,candidate048@example.com,job-15,Talent Acquisition Partner,Withdrawn,Application review,2026-10-30,2026-10-30,,,Paused,Agency,2026-10-20,2026-10-24,Morgan Lee,Casey Martin
+app-049,Demo Candidate 049,candidate049@example.com,job-16,Sales Development Representative,Archived,Recruiter screen,2026-10-23,2026-10-29,Candidate withdrew,,Open,Direct sourcing,,,Taylor Brooks,Robin Chen
+app-050,Demo Candidate 050,candidate050@example.com,job-17,Engineering Manager,Active,Hiring manager interview,2026-10-16,2026-10-28,,,Open,Careers site,,,Alex Rivers,Sam Patel
+app-051,Demo Candidate 051,candidate051@example.com,job-18,People Partner,Active,Technical interview,2026-10-09,2026-10-27,,,Open,Employee referral,,,Charlie Ellis,Jordan Ellis
+app-052,Demo Candidate 052,candidate052@example.com,job-19,Implementation Consultant,Active,Final interview,2026-10-02,2026-10-26,,,Open,,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-053,Demo Candidate 053,candidate053@example.com,job-20,Revenue Operations Manager,Active,Offer,2026-09-25,2026-10-25,,,Paused,Agency,,,Taylor Brooks,Robin Chen
+app-054,Demo Candidate 054,candidate054@example.com,job-05,Senior Product Designer,Active,Application review,2026-09-18,2026-10-24,,,Paused,Direct sourcing,,,Alex Rivers,Sam Patel
+app-055,Demo Candidate 055,candidate055@example.com,job-06,Platform Engineer,Active,Recruiter screen,2026-10-29,2026-10-23,,,Open,Careers site,,,Charlie Ellis,Jordan Ellis
+app-056,Demo Candidate 056,candidate056@example.com,job-07,Customer Success Manager,Rejected,Hiring manager interview,2026-10-22,2026-10-22,,,Open,Employee referral,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-057,Demo Candidate 057,candidate057@example.com,job-08,Recruiting Coordinator,Hired,Technical interview,2026-10-15,2026-10-21,,,Open,LinkedIn,,,Taylor Brooks,Robin Chen
+app-058,Demo Candidate 058,candidate058@example.com,job-09,Data Analyst,Withdrawn,Final interview,2026-10-08,2026-10-20,,,Open,Agency,2026-10-20,,Alex Rivers,Sam Patel
+app-059,Demo Candidate 059,candidate059@example.com,job-10,Product Manager,Archived,Offer,2026-10-01,2026-10-19,Position closed,,Paused,Direct sourcing,,,Charlie Ellis,Jordan Ellis
+app-060,Demo Candidate 060,candidate060@example.com,job-11,Finance Business Partner,Active,Application review,2026-09-24,2026-10-30,,,Open,Careers site,2026-10-20,2026-10-24,Morgan Lee,Casey Martin
+app-061,Demo Candidate 061,candidate061@example.com,job-12,Security Engineer,Active,Recruiter screen,2026-09-17,2026-10-29,,,Open,Employee referral,,,Taylor Brooks,Robin Chen
+app-062,Demo Candidate 062,candidate062@example.com,job-13,Growth Marketing Manager,Active,Hiring manager interview,2026-10-28,2026-10-28,,,Open,LinkedIn,,,Alex Rivers,Sam Patel
+app-063,Demo Candidate 063,candidate063@example.com,job-14,Solutions Engineer,Active,Technical interview,2026-10-21,2026-10-27,,,Open,Agency,,,Charlie Ellis,Jordan Ellis
+app-064,Demo Candidate 064,candidate064@example.com,job-15,Talent Acquisition Partner,Active,Final interview,2026-10-14,2026-10-26,,,Paused,Direct sourcing,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-065,Demo Candidate 065,candidate065@example.com,job-16,Sales Development Representative,Active,Offer,2026-10-07,2026-10-25,,,Open,,,,Taylor Brooks,Robin Chen
+app-066,Demo Candidate 066,candidate066@example.com,job-17,Engineering Manager,Rejected,Application review,2026-09-30,2026-10-24,Role requirements,,Open,Employee referral,,,Alex Rivers,Sam Patel
+app-067,Demo Candidate 067,candidate067@example.com,job-18,People Partner,Hired,Recruiter screen,2026-09-23,2026-10-23,,,Open,LinkedIn,,,Charlie Ellis,Jordan Ellis
+app-068,Demo Candidate 068,candidate068@example.com,job-19,Implementation Consultant,Withdrawn,Hiring manager interview,2026-09-16,2026-10-22,,,Open,Agency,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-069,Demo Candidate 069,candidate069@example.com,job-20,Revenue Operations Manager,Archived,Technical interview,2026-10-27,2026-10-21,Role requirements,,Paused,Direct sourcing,,,Taylor Brooks,Robin Chen
+app-070,Demo Candidate 070,candidate070@example.com,job-05,Senior Product Designer,Active,Final interview,2026-10-20,2026-10-20,,,Paused,Careers site,,,Alex Rivers,Sam Patel
+app-071,Demo Candidate 071,candidate071@example.com,job-06,Platform Engineer,Active,Offer,2026-10-13,2026-10-19,,,Open,Employee referral,,,Charlie Ellis,Jordan Ellis
+app-072,Demo Candidate 072,candidate072@example.com,job-07,Customer Success Manager,Active,Application review,2026-10-06,2026-10-30,,,Open,LinkedIn,2026-10-20,2026-10-24,Morgan Lee,Casey Martin
+app-073,Demo Candidate 073,candidate073@example.com,job-08,Recruiting Coordinator,Active,Recruiter screen,2026-09-29,2026-10-29,,,Open,Agency,,,Taylor Brooks,Robin Chen
+app-074,Demo Candidate 074,candidate074@example.com,job-09,Data Analyst,Active,Hiring manager interview,2026-09-22,2026-10-28,,,Open,Direct sourcing,,,Alex Rivers,Sam Patel
+app-075,Demo Candidate 075,candidate075@example.com,job-10,Product Manager,Active,Technical interview,2026-09-15,2026-10-27,,,Paused,Careers site,,,Charlie Ellis,Jordan Ellis
+app-076,Demo Candidate 076,candidate076@example.com,job-11,Finance Business Partner,Rejected,Final interview,2026-10-26,2026-10-26,,,Open,Employee referral,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-077,Demo Candidate 077,candidate077@example.com,job-12,Security Engineer,Hired,Offer,2026-10-19,2026-10-25,,,Open,LinkedIn,,,Taylor Brooks,Robin Chen
+app-078,Demo Candidate 078,candidate078@example.com,job-13,Growth Marketing Manager,Withdrawn,Application review,2026-10-12,2026-10-24,,,Open,,,,Alex Rivers,Sam Patel
+app-079,Demo Candidate 079,candidate079@example.com,job-14,Solutions Engineer,Archived,Recruiter screen,2026-10-05,2026-10-23,Candidate withdrew,,Open,Direct sourcing,,,Charlie Ellis,Jordan Ellis
+app-080,Demo Candidate 080,candidate080@example.com,job-15,Talent Acquisition Partner,Active,Hiring manager interview,2026-09-28,2026-10-22,,,Paused,Careers site,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-081,Demo Candidate 081,candidate081@example.com,job-16,Sales Development Representative,Active,Technical interview,2026-09-21,2026-10-21,,,Open,Employee referral,,,Taylor Brooks,Robin Chen
+app-082,Demo Candidate 082,candidate082@example.com,job-17,Engineering Manager,Active,Final interview,30/10/2026,2026-10-20,,,Open,LinkedIn,,,Alex Rivers,Sam Patel
+app-083,Demo Candidate 083,candidate083@example.com,job-18,People Partner,Active,Offer,2026-10-25,2026-10-19,,,Open,Agency,,,Charlie Ellis,Jordan Ellis
+app-084,Demo Candidate 084,candidate084@example.com,job-19,Implementation Consultant,Active,Application review,2026-10-18,2026-10-30,,,Open,Direct sourcing,2026-10-20,2026-10-24,Morgan Lee,Casey Martin
+app-085,Demo Candidate 085,candidate085@example.com,job-20,Revenue Operations Manager,Active,Recruiter screen,2026-10-11,2026-10-29,,,Paused,Careers site,,,Taylor Brooks,Robin Chen
+app-086,Demo Candidate 086,candidate086@example.com,job-05,Senior Product Designer,Rejected,Hiring manager interview,2026-10-04,2026-10-28,Position closed,,Paused,Employee referral,,,Alex Rivers,Sam Patel
+app-087,Demo Candidate 087,candidate087@example.com,job-06,Platform Engineer,Hired,Technical interview,2026-09-27,2026-10-27,,,Open,LinkedIn,2026-10-20,,Charlie Ellis,Jordan Ellis
+app-088,Demo Candidate 088,candidate088@example.com,job-07,Customer Success Manager,Withdrawn,Final interview,2026-09-20,2026-10-26,,,Open,Agency,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-089,Demo Candidate 089,candidate089@example.com,job-08,Recruiting Coordinator,Archived,Offer,2026-09-13,2026-10-25,Position closed,,Open,Direct sourcing,,,Taylor Brooks,Robin Chen
+app-090,Demo Candidate 090,candidate090@example.com,job-09,Data Analyst,Active,Application review,2026-10-24,2026-10-24,,,Open,Careers site,,,Alex Rivers,Sam Patel
+app-091,Demo Candidate 091,candidate091@example.com,job-10,Product Manager,Active,Recruiter screen,2026-10-17,2026-10-23,,,Paused,,,,Charlie Ellis,Jordan Ellis
+app-092,Demo Candidate 092,candidate092@example.com,job-11,Finance Business Partner,Active,Hiring manager interview,2026-10-10,2026-10-22,,,Open,LinkedIn,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-093,Demo Candidate 093,candidate093@example.com,job-12,Security Engineer,Active,Technical interview,2026-10-03,2026-10-21,,,Open,Agency,,,Taylor Brooks,Robin Chen
+app-094,Demo Candidate 094,candidate094@example.com,job-13,Growth Marketing Manager,Active,Final interview,2026-09-26,2026-10-20,,2026-11-06,Open,Direct sourcing,,,Alex Rivers,Sam Patel
+app-095,Demo Candidate 095,candidate095@example.com,job-14,Solutions Engineer,Active,Offer,2026-09-19,2026-10-19,,,Open,Careers site,,,Charlie Ellis,Jordan Ellis
+app-096,Demo Candidate 096,candidate096@example.com,job-15,Talent Acquisition Partner,Rejected,Application review,2026-10-30,2026-10-30,,,Paused,Employee referral,2026-10-20,2026-10-24,Morgan Lee,Casey Martin
+app-097,Demo Candidate 097,candidate097@example.com,job-16,Sales Development Representative,Hired,Recruiter screen,2026-10-23,2026-10-29,,,Open,LinkedIn,,,Taylor Brooks,Robin Chen
+app-098,Demo Candidate 098,candidate098@example.com,job-17,Engineering Manager,Withdrawn,Hiring manager interview,2026-10-16,2026-10-28,,,Open,Agency,,,Alex Rivers,Sam Patel
+app-099,Demo Candidate 099,candidate099@example.com,job-18,People Partner,Archived,Technical interview,2026-10-09,2026-10-27,Role requirements,,Open,Direct sourcing,,,Charlie Ellis,Jordan Ellis
+app-100,Demo Candidate 100,candidate100@example.com,job-19,Implementation Consultant,Active,Final interview,2026-10-02,2026-10-26,,,Open,Careers site,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-101,Demo Candidate 101,candidate101@example.com,job-20,Revenue Operations Manager,Active,Offer,2026-09-25,2026-10-25,,,Paused,Employee referral,,,Taylor Brooks,Robin Chen
+app-102,Demo Candidate 102,candidate102@example.com,job-05,Senior Product Designer,Active,Application review,2026-09-18,2026-10-24,,,Paused,LinkedIn,,,Alex Rivers,Sam Patel
+app-103,Demo Candidate 103,candidate103@example.com,job-06,Platform Engineer,Active,Recruiter screen,2026-10-29,2026-10-23,,,Open,Agency,,,Charlie Ellis,Jordan Ellis
+app-104,Demo Candidate 104,candidate104@example.com,job-07,Customer Success Manager,Active,Hiring manager interview,2026-10-22,2026-10-22,,,Open,,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-105,Demo Candidate 105,candidate105@example.com,job-08,Recruiting Coordinator,Active,Technical interview,2026-10-15,2026-10-21,,,Open,Careers site,,,Taylor Brooks,Robin Chen
+app-106,Demo Candidate 106,candidate106@example.com,job-09,Data Analyst,Rejected,Final interview,2026-10-08,2026-10-20,Candidate withdrew,,Open,Employee referral,,,Alex Rivers,Sam Patel
+app-107,Demo Candidate 107,candidate107@example.com,job-10,Product Manager,Hired,Offer,2026-10-01,2026-10-19,,,Paused,LinkedIn,,,Charlie Ellis,Jordan Ellis
+app-108,Demo Candidate 108,candidate108@example.com,job-11,Finance Business Partner,Withdrawn,Application review,2026-09-24,2026-10-30,,,Open,Agency,2026-10-20,2026-10-24,Morgan Lee,Casey Martin
+app-109,Demo Candidate 109,candidate109@example.com,job-12,Security Engineer,Archived,Recruiter screen,2026-09-17,2026-10-29,Candidate withdrew,,Open,Direct sourcing,,,Taylor Brooks,Robin Chen
+app-110,Demo Candidate 110,candidate110@example.com,job-13,Growth Marketing Manager,Active,Hiring manager interview,2026-10-28,2026-10-28,,,Open,Careers site,,,Alex Rivers,Sam Patel
+app-111,Demo Candidate 111,candidate111@example.com,job-14,Solutions Engineer,Active,Technical interview,2026-10-21,2026-10-27,,,Open,Employee referral,,,Charlie Ellis,Jordan Ellis
+app-112,Demo Candidate 112,candidate112@example.com,job-15,Talent Acquisition Partner,Active,Final interview,2026-10-14,2026-10-26,,,Paused,LinkedIn,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-113,Demo Candidate 113,candidate113@example.com,job-16,Sales Development Representative,Active,Offer,2026-10-07,2026-10-25,,,Open,Agency,,,Taylor Brooks,Robin Chen
+app-114,Demo Candidate 114,candidate114@example.com,job-17,Engineering Manager,Active,Application review,2026-09-30,2026-10-24,,,Open,Direct sourcing,,,Alex Rivers,Sam Patel
+app-115,Demo Candidate 115,candidate115@example.com,job-18,People Partner,Active,Recruiter screen,2026-09-23,2026-10-23,,,Open,Careers site,,,Charlie Ellis,Jordan Ellis
+app-116,Demo Candidate 116,candidate116@example.com,job-19,Implementation Consultant,Rejected,Hiring manager interview,2026-09-16,2026-10-22,,,Open,Employee referral,2026-10-20,,Morgan Lee,Casey Martin
+app-117,Demo Candidate 117,candidate117@example.com,job-20,Revenue Operations Manager,Hired,Technical interview,2026-10-27,2026-10-21,,,Paused,,,,Taylor Brooks,Robin Chen
+app-118,Demo Candidate 118,candidate118@example.com,job-05,Senior Product Designer,Withdrawn,Final interview,2026-10-20,2026-10-20,,,Paused,Agency,,,Alex Rivers,Sam Patel
+app-119,Demo Candidate 119,candidate119@example.com,job-06,Platform Engineer,Archived,Offer,2026-10-13,2026-10-19,Position closed,,Open,Direct sourcing,,,Charlie Ellis,Jordan Ellis
+app-120,Demo Candidate 120,candidate120@example.com,job-07,Customer Success Manager,Active,Application review,2026-10-06,2026-10-30,,,Open,Careers site,2026-10-20,2026-10-24,Morgan Lee,Casey Martin
+app-121,Demo Candidate 121,candidate121@example.com,job-08,Recruiting Coordinator,Active,Recruiter screen,2026-09-29,2026-10-29,,,Open,Employee referral,,,Taylor Brooks,Robin Chen
+app-122,Demo Candidate 122,candidate122@example.com,job-09,Data Analyst,Active,Hiring manager interview,2026-09-22,2026-10-28,,,Open,LinkedIn,,,Alex Rivers,Sam Patel
+app-123,Demo Candidate 123,candidate123@example.com,job-10,Product Manager,Active,Technical interview,30/10/2026,2026-10-27,,,Paused,Agency,,,Charlie Ellis,Jordan Ellis
+app-124,Demo Candidate 124,candidate124@example.com,job-11,Finance Business Partner,Active,Final interview,2026-10-26,2026-10-26,,,Open,Direct sourcing,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-125,Demo Candidate 125,candidate125@example.com,job-12,Security Engineer,Active,Offer,2026-10-19,2026-10-25,,,Open,Careers site,,,Taylor Brooks,Robin Chen
+app-126,Demo Candidate 126,candidate126@example.com,job-13,Growth Marketing Manager,Rejected,Application review,2026-10-12,2026-10-24,Role requirements,,Open,Employee referral,,,Alex Rivers,Sam Patel
+app-127,Demo Candidate 127,candidate127@example.com,job-14,Solutions Engineer,Hired,Recruiter screen,2026-10-05,2026-10-23,,,Open,LinkedIn,,,Charlie Ellis,Jordan Ellis
+app-128,Demo Candidate 128,candidate128@example.com,job-15,Talent Acquisition Partner,Withdrawn,Hiring manager interview,2026-09-28,2026-10-22,,,Paused,Agency,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-129,Demo Candidate 129,candidate129@example.com,job-16,Sales Development Representative,Archived,Technical interview,2026-09-21,2026-10-21,Role requirements,,Open,Direct sourcing,,,Taylor Brooks,Robin Chen
+app-130,Demo Candidate 130,candidate130@example.com,job-17,Engineering Manager,Active,Final interview,2026-09-14,2026-10-20,,,Open,,,,Alex Rivers,Sam Patel
+app-131,Demo Candidate 131,candidate131@example.com,job-18,People Partner,Active,Offer,2026-10-25,2026-10-19,,,Open,Employee referral,,,Charlie Ellis,Jordan Ellis
+app-132,Demo Candidate 132,candidate132@example.com,job-19,Implementation Consultant,Active,Application review,2026-10-18,2026-10-30,,,Open,LinkedIn,2026-10-20,2026-10-24,Morgan Lee,Casey Martin
+app-133,Demo Candidate 133,candidate133@example.com,job-20,Revenue Operations Manager,Active,Recruiter screen,2026-10-11,2026-10-29,,,Paused,Agency,,,Taylor Brooks,Robin Chen
+app-134,Demo Candidate 134,candidate134@example.com,job-05,Senior Product Designer,Active,Hiring manager interview,2026-10-04,2026-10-28,,,Paused,Direct sourcing,,,Alex Rivers,Sam Patel
+app-135,Demo Candidate 135,candidate135@example.com,job-06,Platform Engineer,Active,Technical interview,2026-09-27,2026-10-27,,,Open,Careers site,,,Charlie Ellis,Jordan Ellis
+app-136,Demo Candidate 136,candidate136@example.com,job-07,Customer Success Manager,Rejected,Final interview,2026-09-20,2026-10-26,,,Open,Employee referral,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-137,Demo Candidate 137,candidate137@example.com,job-08,Recruiting Coordinator,Hired,Offer,2026-09-13,2026-10-25,,,Open,LinkedIn,,,Taylor Brooks,Robin Chen
+app-138,Demo Candidate 138,candidate138@example.com,job-09,Data Analyst,Withdrawn,Application review,2026-10-24,2026-10-24,,,Open,Agency,,,Alex Rivers,Sam Patel
+app-139,Demo Candidate 139,candidate139@example.com,job-10,Product Manager,Archived,Recruiter screen,2026-10-17,2026-10-23,Candidate withdrew,,Paused,Direct sourcing,,,Charlie Ellis,Jordan Ellis
+app-140,Demo Candidate 140,candidate140@example.com,job-11,Finance Business Partner,Active,Hiring manager interview,2026-10-10,2026-10-22,,,Open,Careers site,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-141,Demo Candidate 141,candidate141@example.com,job-12,Security Engineer,Active,Technical interview,2026-10-03,2026-10-21,,2026-11-06,Open,Employee referral,,,Taylor Brooks,Robin Chen
+app-142,Demo Candidate 142,candidate142@example.com,job-13,Growth Marketing Manager,Active,Final interview,2026-09-26,2026-10-20,,,Open,LinkedIn,,,Alex Rivers,Sam Patel
+app-143,Demo Candidate 143,candidate143@example.com,job-14,Solutions Engineer,Active,Offer,2026-09-19,2026-10-19,,,Open,,,,Charlie Ellis,Jordan Ellis
+app-144,Demo Candidate 144,candidate144@example.com,job-15,Talent Acquisition Partner,Active,Application review,2026-10-30,2026-10-30,,,Paused,Direct sourcing,2026-10-20,2026-10-24,Morgan Lee,Casey Martin
+app-145,Demo Candidate 145,candidate145@example.com,job-16,Sales Development Representative,Active,Recruiter screen,2026-10-23,2026-10-29,,,Open,Careers site,2026-10-20,,Taylor Brooks,Robin Chen
+app-146,Demo Candidate 146,candidate146@example.com,job-17,Engineering Manager,Rejected,Hiring manager interview,2026-10-16,2026-10-28,Position closed,,Open,Employee referral,,,Alex Rivers,Sam Patel
+app-147,Demo Candidate 147,candidate147@example.com,job-18,People Partner,Hired,Technical interview,2026-10-09,2026-10-27,,,Open,LinkedIn,,,Charlie Ellis,Jordan Ellis
+app-148,Demo Candidate 148,candidate148@example.com,job-19,Implementation Consultant,Withdrawn,Final interview,2026-10-02,2026-10-26,,,Open,Agency,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-149,Demo Candidate 149,candidate149@example.com,job-20,Revenue Operations Manager,Archived,Offer,2026-09-25,2026-10-25,Position closed,,Paused,Direct sourcing,,,Taylor Brooks,Robin Chen
+app-150,Demo Candidate 150,candidate150@example.com,job-05,Senior Product Designer,Active,Application review,2026-09-18,2026-10-24,,,Paused,Careers site,,,Alex Rivers,Sam Patel
+app-151,Demo Candidate 151,candidate151@example.com,job-06,Platform Engineer,Active,Recruiter screen,2026-10-29,2026-10-23,,,Open,Employee referral,,,Charlie Ellis,Jordan Ellis
+app-152,Demo Candidate 152,candidate152@example.com,job-07,Customer Success Manager,Active,Hiring manager interview,2026-10-22,2026-10-22,,,Open,LinkedIn,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-153,Demo Candidate 153,candidate153@example.com,job-08,Recruiting Coordinator,Active,Technical interview,2026-10-15,2026-10-21,,,Open,Agency,,,Taylor Brooks,Robin Chen
+app-154,Demo Candidate 154,candidate154@example.com,job-09,Data Analyst,Active,Final interview,2026-10-08,2026-10-20,,,Open,Direct sourcing,,,Alex Rivers,Sam Patel
+app-155,Demo Candidate 155,candidate155@example.com,job-10,Product Manager,Active,Offer,2026-10-01,2026-10-19,,,Paused,Careers site,,,Charlie Ellis,Jordan Ellis
+app-156,Demo Candidate 156,candidate156@example.com,job-11,Finance Business Partner,Rejected,Application review,2026-09-24,2026-10-30,,,Open,,2026-10-20,2026-10-24,Morgan Lee,Casey Martin
+app-157,Demo Candidate 157,candidate157@example.com,job-12,Security Engineer,Hired,Recruiter screen,2026-09-17,2026-10-29,,,Open,LinkedIn,,,Taylor Brooks,Robin Chen
+app-158,Demo Candidate 158,candidate158@example.com,job-13,Growth Marketing Manager,Withdrawn,Hiring manager interview,2026-10-28,2026-10-28,,,Open,Agency,,,Alex Rivers,Sam Patel
+app-159,Demo Candidate 159,candidate159@example.com,job-14,Solutions Engineer,Archived,Technical interview,2026-10-21,2026-10-27,Role requirements,,Open,Direct sourcing,,,Charlie Ellis,Jordan Ellis
+app-160,Demo Candidate 160,candidate160@example.com,job-15,Talent Acquisition Partner,Active,Final interview,2026-10-14,2026-10-26,,,Paused,Careers site,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-161,Demo Candidate 161,candidate161@example.com,job-16,Sales Development Representative,Active,Offer,2026-10-07,2026-10-25,,,Open,Employee referral,,,Taylor Brooks,Robin Chen
+app-162,Demo Candidate 162,candidate162@example.com,job-17,Engineering Manager,Active,Application review,2026-09-30,2026-10-24,,,Open,LinkedIn,,,Alex Rivers,Sam Patel
+app-163,Demo Candidate 163,candidate163@example.com,job-18,People Partner,Active,Recruiter screen,2026-09-23,2026-10-23,,,Open,Agency,,,Charlie Ellis,Jordan Ellis
+app-164,Demo Candidate 164,candidate164@example.com,job-19,Implementation Consultant,Active,Hiring manager interview,30/10/2026,2026-10-22,,,Open,Direct sourcing,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-165,Demo Candidate 165,candidate165@example.com,job-20,Revenue Operations Manager,Active,Technical interview,2026-10-27,2026-10-21,,,Paused,Careers site,,,Taylor Brooks,Robin Chen
+app-166,Demo Candidate 166,candidate166@example.com,job-05,Senior Product Designer,Rejected,Final interview,2026-10-20,2026-10-20,Candidate withdrew,,Paused,Employee referral,,,Alex Rivers,Sam Patel
+app-167,Demo Candidate 167,candidate167@example.com,job-06,Platform Engineer,Hired,Offer,2026-10-13,2026-10-19,,,Open,LinkedIn,,,Charlie Ellis,Jordan Ellis
+app-168,Demo Candidate 168,candidate168@example.com,job-07,Customer Success Manager,Withdrawn,Application review,2026-10-06,2026-10-30,,,Open,Agency,2026-10-20,2026-10-24,Morgan Lee,Casey Martin
+app-169,Demo Candidate 169,candidate169@example.com,job-08,Recruiting Coordinator,Archived,Recruiter screen,2026-09-29,2026-10-29,Candidate withdrew,,Open,,,,Taylor Brooks,Robin Chen
+app-170,Demo Candidate 170,candidate170@example.com,job-09,Data Analyst,Active,Hiring manager interview,2026-09-22,2026-10-28,,,Open,Careers site,,,Alex Rivers,Sam Patel
+app-171,Demo Candidate 171,candidate171@example.com,job-10,Product Manager,Active,Technical interview,2026-09-15,2026-10-27,,,Paused,Employee referral,,,Charlie Ellis,Jordan Ellis
+app-172,Demo Candidate 172,candidate172@example.com,job-11,Finance Business Partner,Active,Final interview,,2026-10-26,,,Open,LinkedIn,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-173,Demo Candidate 173,candidate173@example.com,job-12,Security Engineer,Active,Offer,2026-10-19,2026-10-25,,,Open,Agency,,,Taylor Brooks,Robin Chen
+app-174,Demo Candidate 174,candidate174@example.com,job-13,Growth Marketing Manager,Active,Application review,2026-10-12,2026-10-24,,,Open,Direct sourcing,2026-10-20,,Alex Rivers,Sam Patel
+app-175,Demo Candidate 175,candidate175@example.com,job-14,Solutions Engineer,Active,Recruiter screen,2026-10-05,2026-10-23,,,Open,Careers site,,,Charlie Ellis,Jordan Ellis
+app-176,Demo Candidate 176,candidate176@example.com,job-15,Talent Acquisition Partner,Rejected,Hiring manager interview,2026-09-28,2026-10-22,,,Paused,Employee referral,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-177,Demo Candidate 177,candidate177@example.com,job-16,Sales Development Representative,Hired,Technical interview,2026-09-21,2026-10-21,,,Open,LinkedIn,,,Taylor Brooks,Robin Chen
+app-178,Demo Candidate 178,candidate178@example.com,job-17,Engineering Manager,Withdrawn,Final interview,2026-09-14,2026-10-20,,,Open,Agency,,,Alex Rivers,Sam Patel
+app-179,Demo Candidate 179,candidate179@example.com,job-18,People Partner,Archived,Offer,2026-10-25,2026-10-19,Position closed,,Open,Direct sourcing,,,Charlie Ellis,Jordan Ellis
+app-180,Demo Candidate 180,candidate180@example.com,job-19,Implementation Consultant,Active,Application review,2026-10-18,2026-10-30,,,Open,Careers site,2026-10-20,2026-10-24,Morgan Lee,Casey Martin
+app-181,Demo Candidate 181,candidate181@example.com,job-20,Revenue Operations Manager,Active,Recruiter screen,2026-10-11,2026-10-29,,,Paused,Employee referral,,,Taylor Brooks,Robin Chen
+app-182,Demo Candidate 182,candidate182@example.com,job-05,Senior Product Designer,Active,Hiring manager interview,2026-10-04,2026-10-28,,,Paused,,,,Alex Rivers,Sam Patel
+app-183,Demo Candidate 183,candidate183@example.com,job-06,Platform Engineer,Active,Technical interview,2026-09-27,2026-10-27,,,Open,Agency,,,Charlie Ellis,Jordan Ellis
+app-184,Demo Candidate 184,candidate184@example.com,job-07,Customer Success Manager,Active,Final interview,2026-09-20,2026-10-26,,,Open,Direct sourcing,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-185,Demo Candidate 185,candidate185@example.com,job-08,Recruiting Coordinator,Active,Offer,2026-09-13,2026-10-25,,,Open,Careers site,,,Taylor Brooks,Robin Chen
+app-186,Demo Candidate 186,candidate186@example.com,job-09,Data Analyst,Rejected,Application review,2026-10-24,2026-10-24,Role requirements,,Open,Employee referral,,,Alex Rivers,Sam Patel
+app-187,Demo Candidate 187,candidate187@example.com,job-10,Product Manager,Hired,Recruiter screen,2026-10-17,2026-10-23,,,Paused,LinkedIn,,,Charlie Ellis,Jordan Ellis
+app-188,Demo Candidate 188,candidate188@example.com,job-11,Finance Business Partner,Withdrawn,Hiring manager interview,2026-10-10,2026-10-22,,2026-11-06,Open,Agency,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-189,Demo Candidate 189,candidate189@example.com,job-12,Security Engineer,Archived,Technical interview,2026-10-03,2026-10-21,Role requirements,,Open,Direct sourcing,,,Taylor Brooks,Robin Chen
+app-190,Demo Candidate 190,candidate190@example.com,job-13,Growth Marketing Manager,Active,Final interview,2026-09-26,2026-10-20,,,Open,Careers site,,,Alex Rivers,Sam Patel
+app-191,Demo Candidate 191,candidate191@example.com,job-14,Solutions Engineer,Active,Offer,2026-09-19,2026-10-19,,,Open,Employee referral,,,Charlie Ellis,Jordan Ellis
+app-192,Demo Candidate 192,candidate192@example.com,job-15,Talent Acquisition Partner,Active,Application review,2026-10-30,2026-10-30,,,Paused,LinkedIn,2026-10-20,2026-10-24,Morgan Lee,Casey Martin
+app-193,Demo Candidate 193,candidate193@example.com,job-16,Sales Development Representative,Active,Recruiter screen,2026-10-23,2026-10-29,,,Open,Agency,,,Taylor Brooks,Robin Chen
+app-194,Demo Candidate 194,candidate194@example.com,job-17,Engineering Manager,Active,Hiring manager interview,2026-10-16,2026-10-28,,,Open,Direct sourcing,,,Alex Rivers,Sam Patel
+app-195,Demo Candidate 195,candidate195@example.com,job-18,People Partner,Active,Technical interview,2026-10-09,2026-10-27,,,Open,,,,Charlie Ellis,Jordan Ellis
+app-196,Demo Candidate 196,candidate196@example.com,job-19,Implementation Consultant,Rejected,Final interview,2026-10-02,2026-10-26,,,Open,Employee referral,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-197,Demo Candidate 197,candidate197@example.com,job-20,Revenue Operations Manager,Hired,Offer,2026-09-25,2026-10-25,,,Paused,LinkedIn,,,Taylor Brooks,Robin Chen
+app-198,Demo Candidate 198,candidate198@example.com,job-05,Senior Product Designer,Withdrawn,Application review,2026-09-18,2026-10-24,,,Paused,Agency,,,Alex Rivers,Sam Patel
+app-199,Demo Candidate 199,candidate199@example.com,job-06,Platform Engineer,Archived,Recruiter screen,2026-10-29,2026-10-23,Candidate withdrew,,Open,Direct sourcing,,,Charlie Ellis,Jordan Ellis
+app-200,Demo Candidate 200,candidate200@example.com,job-07,Customer Success Manager,Active,Hiring manager interview,2026-10-22,2026-10-22,,,Open,Careers site,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-201,Demo Candidate 201,candidate201@example.com,job-08,Recruiting Coordinator,Active,Technical interview,2026-10-15,2026-10-21,,,Open,Employee referral,,,Taylor Brooks,Robin Chen
+app-202,Demo Candidate 202,candidate202@example.com,job-09,Data Analyst,Active,Final interview,2026-10-08,2026-10-20,,,Open,LinkedIn,,,Alex Rivers,Sam Patel
+app-203,Demo Candidate 203,candidate203@example.com,job-10,Product Manager,Active,Offer,2026-10-01,2026-10-19,,,Paused,Agency,2026-10-20,,Charlie Ellis,Jordan Ellis
+app-204,Demo Candidate 204,candidate204@example.com,job-11,Finance Business Partner,Active,Application review,2026-09-24,2026-10-30,,,Open,Direct sourcing,2026-10-20,2026-10-24,Morgan Lee,Casey Martin
+app-205,Demo Candidate 205,candidate205@example.com,job-12,Security Engineer,Active,Recruiter screen,30/10/2026,2026-10-29,,,Open,Careers site,,,Taylor Brooks,Robin Chen
+app-206,Demo Candidate 206,candidate206@example.com,job-13,Growth Marketing Manager,Rejected,Hiring manager interview,2026-10-28,2026-10-28,Position closed,,Open,Employee referral,,,Alex Rivers,Sam Patel
+app-207,Demo Candidate 207,candidate207@example.com,job-14,Solutions Engineer,Hired,Technical interview,2026-10-21,2026-10-27,,,Open,LinkedIn,,,Charlie Ellis,Jordan Ellis
+app-208,Demo Candidate 208,candidate208@example.com,job-15,Talent Acquisition Partner,Withdrawn,Final interview,2026-10-14,2026-10-26,,,Paused,,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-209,Demo Candidate 209,candidate209@example.com,job-16,Sales Development Representative,Archived,Offer,2026-10-07,2026-10-25,Position closed,,Open,Direct sourcing,,,Taylor Brooks,Robin Chen
+app-210,Demo Candidate 210,candidate210@example.com,job-17,Engineering Manager,Active,Application review,2026-09-30,2026-10-24,,,Open,Careers site,,,Alex Rivers,Sam Patel
+app-211,Demo Candidate 211,candidate211@example.com,job-18,People Partner,Active,Recruiter screen,2026-09-23,2026-10-23,,,Open,Employee referral,,,Charlie Ellis,Jordan Ellis
+app-212,Demo Candidate 212,candidate212@example.com,job-19,Implementation Consultant,Active,Hiring manager interview,2026-09-16,2026-10-22,,,Open,LinkedIn,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-213,Demo Candidate 213,candidate213@example.com,job-20,Revenue Operations Manager,Active,Technical interview,2026-10-27,2026-10-21,,,Paused,Agency,,,Taylor Brooks,Robin Chen
+app-214,Demo Candidate 214,candidate214@example.com,job-05,Senior Product Designer,Active,Final interview,2026-10-20,2026-10-20,,,Paused,Direct sourcing,,,Alex Rivers,Sam Patel
+app-215,Demo Candidate 215,candidate215@example.com,job-06,Platform Engineer,Active,Offer,,2026-10-19,,,Open,Careers site,,,Charlie Ellis,Jordan Ellis
+app-216,Demo Candidate 216,candidate216@example.com,job-07,Customer Success Manager,Rejected,Application review,2026-10-06,2026-10-30,,,Open,Employee referral,2026-10-20,2026-10-24,Morgan Lee,Casey Martin
+app-217,Demo Candidate 217,candidate217@example.com,job-08,Recruiting Coordinator,Hired,Recruiter screen,2026-09-29,2026-10-29,,,Open,LinkedIn,,,Taylor Brooks,Robin Chen
+app-218,Demo Candidate 218,candidate218@example.com,job-09,Data Analyst,Withdrawn,Hiring manager interview,2026-09-22,2026-10-28,,,Open,Agency,,,Alex Rivers,Sam Patel
+app-219,Demo Candidate 219,candidate219@example.com,job-10,Product Manager,Archived,Technical interview,2026-09-15,2026-10-27,Role requirements,,Paused,Direct sourcing,,,Charlie Ellis,Jordan Ellis
+app-220,Demo Candidate 220,candidate220@example.com,job-11,Finance Business Partner,Active,Final interview,2026-10-26,2026-10-26,,,Open,Careers site,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-221,Demo Candidate 221,candidate221@example.com,job-12,Security Engineer,Active,Offer,2026-10-19,2026-10-25,,,Open,,,,Taylor Brooks,Robin Chen
+app-222,Demo Candidate 222,candidate222@example.com,job-13,Growth Marketing Manager,Active,Application review,2026-10-12,2026-10-24,,,Open,LinkedIn,,,Alex Rivers,Sam Patel
+app-223,Demo Candidate 223,candidate223@example.com,job-14,Solutions Engineer,Active,Recruiter screen,2026-10-05,2026-10-23,,,Open,Agency,,,Charlie Ellis,Jordan Ellis
+app-224,Demo Candidate 224,candidate224@example.com,job-15,Talent Acquisition Partner,Active,Hiring manager interview,2026-09-28,2026-10-22,,,Paused,Direct sourcing,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-225,Demo Candidate 225,candidate225@example.com,job-16,Sales Development Representative,Active,Technical interview,2026-09-21,2026-10-21,,,Open,Careers site,,,Taylor Brooks,Robin Chen
+app-226,Demo Candidate 226,candidate226@example.com,job-17,Engineering Manager,Rejected,Final interview,2026-09-14,2026-10-20,Candidate withdrew,,Open,Employee referral,,,Alex Rivers,Sam Patel
+app-227,Demo Candidate 227,candidate227@example.com,job-18,People Partner,Hired,Offer,2026-10-25,2026-10-19,,,Open,LinkedIn,,,Charlie Ellis,Jordan Ellis
+app-228,Demo Candidate 228,candidate228@example.com,job-19,Implementation Consultant,Withdrawn,Application review,2026-10-18,2026-10-30,,,Open,Agency,2026-10-20,2026-10-24,Morgan Lee,Casey Martin
+app-229,Demo Candidate 229,candidate229@example.com,job-20,Revenue Operations Manager,Archived,Recruiter screen,2026-10-11,2026-10-29,Candidate withdrew,,Paused,Direct sourcing,,,Taylor Brooks,Robin Chen
+app-230,Demo Candidate 230,candidate230@example.com,job-05,Senior Product Designer,Active,Hiring manager interview,2026-10-04,2026-10-28,,,Paused,Careers site,,,Alex Rivers,Sam Patel
+app-231,Demo Candidate 231,candidate231@example.com,job-06,Platform Engineer,Active,Technical interview,2026-09-27,2026-10-27,,,Open,Employee referral,,,Charlie Ellis,Jordan Ellis
+app-232,Demo Candidate 232,candidate232@example.com,job-07,Customer Success Manager,Active,Final interview,2026-09-20,2026-10-26,,,Open,LinkedIn,2026-10-20,,Morgan Lee,Casey Martin
+app-233,Demo Candidate 233,candidate233@example.com,job-08,Recruiting Coordinator,Active,Offer,2026-09-13,2026-10-25,,,Open,Agency,,,Taylor Brooks,Robin Chen
+app-234,Demo Candidate 234,candidate234@example.com,job-09,Data Analyst,Active,Application review,2026-10-24,2026-10-24,,,Open,,,,Alex Rivers,Sam Patel
+app-235,Demo Candidate 235,candidate235@example.com,job-10,Product Manager,Active,Recruiter screen,2026-10-17,2026-10-23,,2026-11-06,Paused,Careers site,,,Charlie Ellis,Jordan Ellis
+app-236,Demo Candidate 236,candidate236@example.com,job-11,Finance Business Partner,Rejected,Hiring manager interview,2026-10-10,2026-10-22,,,Open,Employee referral,2026-10-20,2026-10-21,Morgan Lee,Casey Martin
+app-237,Demo Candidate 237,candidate237@example.com,job-12,Security Engineer,Hired,Technical interview,2026-10-03,2026-10-21,,,Open,LinkedIn,,,Taylor Brooks,Robin Chen
+app-238,Demo Candidate 238,candidate238@example.com,job-13,Growth Marketing Manager,Withdrawn,Final interview,2026-09-26,2026-10-20,,,Open,Agency,,,Alex Rivers,Sam Patel
+app-239,Demo Candidate 239,candidate239@example.com,job-14,Solutions Engineer,Archived,Offer,2026-09-19,2026-10-19,Position closed,,Open,Direct sourcing,,,Charlie Ellis,Jordan Ellis
+app-240,Demo Candidate 240,candidate240@example.com,job-15,Talent Acquisition Partner,Active,Application review,2026-10-30,2026-10-30,,,Paused,Careers site,2026-10-20,2026-10-24,Morgan Lee,Casey Martin

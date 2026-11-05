@@ -1,2 +1,2 @@
-Application ID,Candidate name,Candidate email,Job ID,Job title,Application status,Current interview stage,Stage entered at,Last activity at,Rejection reason,Next interview at,Job status
-example-001,Example Candidate,example@example.com,role-001,Example role,Active,Recruiter screen,2026-10-28,2026-10-29,,,Open
+Application ID,Candidate ID,Job title,Application status,Current stage,Stage entered at,Last activity at,Rejection reason,Next interview at,Job status,Job ID,Candidate source,Interview completed at,Feedback submitted at
+app_demo_001,candidate_demo_001,Example role,Active,Screen,2026-10-01,2026-10-02,,,Open,role_demo_001,Present,,

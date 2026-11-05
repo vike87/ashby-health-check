@@ -6,5 +6,5 @@ exports/
 private-data/
 
 # Private hosting metadata and generated bundles
-.openai/
+
 dist/source.zip

@@ -16,7 +16,7 @@ The original CSV diagnostics and repair queue remain in place. The consultant wo
 
 **Evidence limitations:** The existing 37-row fictional application CSV supports stale stages, disposition gaps, potential duplicate applications, incomplete core fields, date anomalies, status/interview conflicts and application-level inactivity for open roles. Additional source-completeness and interview-feedback checks run only if the upload contains columns named `Candidate source` or `Source`, and both `Interview completed at` and `Feedback submitted at`, respectively. Stage-configuration consistency and actual requisition time-to-fill are **not measured** without job-stage configuration and requisition open/close histories. Do not interpret unavailable checks as passing. No real Ashby integration, authentication or backend is included.
 
-**Security:** Local browser CSV parsing, no candidate scoring, no ATS writes, no analytics or paid APIs. CSV exports neutralise spreadsheet formula injection. Use synthetic data for public demonstrations; real recruiting exports require appropriate access controls and retention policies.
+**Security:** Local browser CSV parsing, no candidate scoring, no ATS writes, optional consent-based usage analytics and no paid model APIs. CSV exports neutralise spreadsheet formula injection. Use synthetic data for public demonstrations; real recruiting exports require appropriate access controls and retention policies.
 
 ---
 
@@ -43,7 +43,7 @@ Create an application-level report in Ashby and export it to CSV, with one row p
 
 Required: Application ID, Job title, Application status. Optional columns unlock additional checks; see `dist/template.csv`. Dates must be ISO YYYY-MM-DD or ISO timestamps. Accepted statuses (case-insensitive): Active / In process / In progress; Rejected / Archived / Hired / Withdrawn. Other statuses are flagged for manual normalisation. Stage entry must be the date the current stage began, not application creation. Last activity must represent application activity, not an unrelated record update. Job IDs improve grouping when titles repeat.
 
-Checks cover missing core values, date validity, stale applications, missing rejection reasons, future interviews on terminal applications, possible duplicates and inactivity across applications of open roles. Role checks cannot find jobs with zero applications, or activity omitted from the export. `Archived` does not necessarily mean rejected in every workflow: verify local policy before filling reasons. Duplicate checks flag same email + job, including legitimate reapplications. No automatic merging or ATS writes.
+Checks cover missing core values, date validity, stale applications, missing rejection reasons, future interviews on terminal applications, possible duplicates and inactivity across applications of open roles. Role checks cannot find jobs with zero applications, or activity omitted from the export. `Archived` does not necessarily mean rejected in every workflow: verify local policy before filling reasons. For local imports, duplicate checks use exact Candidate ID plus role, including legitimate reapplications; email is discarded. The synthetic demo can illustrate the legacy email match. No automatic merging or ATS writes.
 
 ## What AI does
 
@@ -51,7 +51,7 @@ The audit engine is deterministic. The app creates an optional aggregate-only re
 
 ## Data and security
 
-CSV contents are parsed in memory in the browser; no app database, storage, analytics, third-party scripts or automatic uploads. Clear data or reload removes app-held records. Downloads and clipboard copies remain. Hosting access logs are a separate consideration. Names and emails are optional. Use pseudonyms and minimise data. CSV exports neutralise formula-leading cells; HTML output is escaped. See [compliance notes](COMPLIANCE.md) and [security policy](SECURITY.md).
+CSV contents are parsed in browser memory and reduced to approved fields before retained audit state. Uploaded data is never sent to Supabase. Supabase stores only the fictional demo and optional consent-based usage analytics. Clear data or reload removes app-held records. Downloads and clipboard copies remain. Hosting access logs are a separate consideration. Imports discard names, emails, phone numbers, CVs, notes and extra columns. Use opaque candidate and application IDs; IDs remain personal data. Roles and stages become local references, and reason/source retain presence only. Prepare a minimised source export first. CSV exports neutralise formula-leading cells; HTML output is escaped. Application analytics stores no IP addresses or networks. See [safeguards](dist/responsible-use.html) and [compliance notes](COMPLIANCE.md) and [security policy](SECURITY.md).
 
 Limits: 20 MB / 50,000 rows; first 500 matching findings displayed, all exported. CSV parser handles quoted commas, escaped quotes, BOM, CRLF and multiline cells; malformed row widths fail visibly. Health findings are not a measure of candidate quality, recruiter performance, or regulatory compliance.
 

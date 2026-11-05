@@ -1,0 +1,23 @@
+(()=>{'use strict';
+const cfg=window.HealthConfig;if(!cfg?.analyticsEndpoint)return;
+const version='2026-11-v2',storageKey='hrc-health-analytics-choice';let choice=null,session=null,queue=[],current='home',seconds=0,last=performance.now(),activeAt=Date.now(),sending=false;
+const banner=document.getElementById('analytics-choice');
+function saved(){try{const v=JSON.parse(localStorage.getItem(storageKey));return v&&v.version===version&&Date.now()-v.at<180*86400000?v.value:null;}catch{return null;}}
+function allowed(){return choice==='allow';}
+function push(type,view=current,action=null,time=0){if(!allowed())return;queue.push({id:crypto.randomUUID(),type,view,action,seconds:time});if(queue.length>100)queue.shift();}
+function account(){const now=performance.now();if(allowed()&&document.visibilityState==='visible'&&document.hasFocus()&&Date.now()-activeAt<60000)seconds+=Math.min(2,(now-last)/1000);last=now;}
+function checkpoint(){account();const n=Math.min(30,Math.floor(seconds));if(n){push('engagement',current,null,n);seconds-=n;}}
+async function send(){if(!allowed()||sending||!queue.length)return;sending=true;const batch=queue.splice(0,20);try{const r=await fetch(cfg.analyticsEndpoint,{method:'POST',headers:{'Content-Type':'application/json',apikey:cfg.analyticsToken,Authorization:'Bearer '+cfg.analyticsToken},body:JSON.stringify({consent:true,version,sessionId:session,events:batch}),keepalive:true});if(!r.ok)throw Error('unavailable');}catch{if(allowed())queue.unshift(...batch);queue=queue.slice(-100);}finally{sending=false;}}
+function visit(view){if(view===current)return;checkpoint();current=view;push('view');send();}
+function choose(value,persist=true){choice=value;if(persist){try{localStorage.setItem(storageKey,JSON.stringify({value,version,at:Date.now()}));}catch{}}banner.hidden=true;if(allowed()){session=crypto.randomUUID();seconds=0;last=performance.now();activeAt=Date.now();push('view');send();}else{queue=[];session=null;seconds=0;}document.getElementById('analytics-settings').textContent=allowed()?'Analytics settings · on':'Analytics settings · off';}
+document.getElementById('analytics-allow').onclick=()=>choose('allow');document.getElementById('analytics-reject').onclick=()=>choose('deny');document.getElementById('analytics-settings').onclick=()=>{banner.hidden=false;};
+const tabs={queue:'repair-queue',checks:'checks',ai:'ai-brief'};const views={overview:'overview',diagnosis:'diagnosis',roadmap:'roadmap',report:'report'};
+const actions={demo:'load-demo',run:'run-audit',export:'export-queue','download-brief':'download-brief',copy:'copy-brief','print-report':'print-report','report-print':'print-report',clear:'clear-data'};
+document.addEventListener('click',e=>{activeAt=Date.now();const button=e.target.closest('button,a');if(!button)return;if(button.dataset.tab)visit(tabs[button.dataset.tab]);if(button.dataset.view)visit(views[button.dataset.view]);if(actions[button.id]){push('action',current,actions[button.id]);send();}if(button.getAttribute('href')==='template.csv'){push('action',current,'template-download');send();}});
+document.getElementById('file').addEventListener('change',()=>{push('action',current,'upload-csv');send();});
+['pointerdown','keydown','scroll','touchstart'].forEach(n=>window.addEventListener(n,()=>activeAt=Date.now(),{passive:true}));
+function visibleSection(){if(!allowed())return;const middle=innerHeight/2;const consultant=document.querySelector('.consultant-workspace').getBoundingClientRect(),workspace=document.querySelector('.workspace').getBoundingClientRect();if(consultant.top<middle&&consultant.bottom>middle){visit(document.querySelector('[data-view][aria-current="page"]')?.dataset.view||'overview');}else if(workspace.top<middle&&workspace.bottom>middle){visit(tabs[document.querySelector('[data-tab][aria-selected="true"]')?.dataset.tab]||'repair-queue');}else if(document.querySelector('.hero').getBoundingClientRect().bottom>0)visit('home');}
+setInterval(()=>{account();visibleSection();},1000);setInterval(()=>{checkpoint();send();},15000);
+document.addEventListener('visibilitychange',()=>{checkpoint();send();last=performance.now();});window.addEventListener('pagehide',()=>{checkpoint();send();});window.addEventListener('blur',()=>{checkpoint();send();});
+choice=saved();if(choice)choose(choice,false);else banner.hidden=false;
+})();
