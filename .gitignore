@@ -8,3 +8,5 @@ private-data/
 # Private hosting metadata and generated bundles
 
 dist/source.zip
+
+.netlify/
